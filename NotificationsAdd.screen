@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:WidgetGroup" id="43" x="200" y="280" measuredWidth="800" measuredHeight="600">
+    <widgets xsi:type="model:Browser" id="1" width="800" height="600" text="Hiển thị CV&#xA;http://timkiemvieclam.vn/showcv" measuredWidth="800" measuredHeight="600">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="2" x="26" y="61" measuredWidth="32" measuredHeight="32" icon="home (large)" link="Test/ChatbotSettings(1).screen"/>
+    <widgets xsi:type="model:Label" id="3" x="64" y="62" text="LOGO" measuredWidth="58" measuredHeight="33">
+      <font size="19px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Arrow" id="4" y="104" width="800" height="8" measuredWidth="800" measuredHeight="8" left="false" direction="bottom"/>
+    <widgets xsi:type="model:Label" id="5" x="612" y="70" text="Xin chào, Hiếu Minh" measuredWidth="133" measuredHeight="25">
+      <font size="13px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="6" x="744" y="63" measuredWidth="32" measuredHeight="32" icon="user (large)"/>
+    <widgets xsi:type="model:Group" id="7" x="38" y="111" width="738" height="458" text="Container" measuredWidth="738" measuredHeight="458">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Shape" id="44" x="766" y="62" width="18" height="19" text="6" measuredWidth="18" measuredHeight="19">
+      <font bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:List" id="45" x="304" y="224" text="[x] Thông báo thường&#xA;[ ] Qua messenger&#xA;[ ] Gmail" measuredWidth="129" measuredHeight="70" border="false" alpha="0">
+      <font/>
+      <items x="0" y="2" width="129" height="22" text="[x] Thông báo thường"/>
+      <items x="0" y="24" width="129" height="22" text="[ ] Qua messenger"/>
+      <items x="0" y="46" width="129" height="22" text="[ ] Gmail"/>
+    </widgets>
+    <widgets xsi:type="model:Text" id="46" x="213" y="280" width="400" height="120" text="Nội dung&#xD;&#xA;Mời bạn nhập nội dung&#xD;&#xA;&#xD;&#xA;" measuredWidth="400" measuredHeight="120">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="47" x="300" y="347" text="OK" measuredWidth="36" measuredHeight="25">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="48" x="360" y="347" text="Hủy bỏ" measuredWidth="59" measuredHeight="25">
+      <font/>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

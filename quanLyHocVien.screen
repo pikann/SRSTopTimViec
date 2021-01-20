@@ -1,0 +1,813 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="104" y="56" width="800" height="600" text="Quản lý học viên&#xA;http://hv.fpt.com.vn/" measuredWidth="800" measuredHeight="600">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="2" x="104" y="160" width="800" measuredWidth="800" measuredHeight="6"/>
+  <widgets xsi:type="model:Icon" id="4" x="120" y="118" measuredWidth="32" measuredHeight="32" icon="home (large)"/>
+  <widgets xsi:type="model:SearchField" id="10" x="264" y="234" width="177" text="Search" measuredWidth="177" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="11" x="104" y="608" width="800" measuredWidth="800" measuredHeight="6"/>
+  <widgets xsi:type="model:VLine" id="12" x="248" y="165" height="444" measuredWidth="6" measuredHeight="444"/>
+  <widgets xsi:type="model:VButtonBar" id="13" x="114" y="272" width="127" height="129" text="Học viên&#xA;Lịch học&#xA;Thống kê" measuredWidth="127" measuredHeight="129" selection="0">
+    <font/>
+    <items x="0" y="0" width="127" height="42" text="Học viên"/>
+    <items x="0" y="42" width="127" height="41" text="Lịch học"/>
+    <items x="0" y="83" width="127" height="46" text="Thống kê"/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="14" x="264" y="266" width="630" height="303" text="STT, Họ và tên, Email, Lớp, Đối tượng, Chức năng&#xA;1,Nguyễn Minh Hiếu, hieu@gmail.com, 17T1,Fresher, [View][Edit] [Remove]&#xA;2, Võ Thị Phúc, phuc@gmail.com , 17T1, Fresher, [View][Edit] [Remove]&#xA;3,Huỳnh Văn Hải , hai@gmail.com, 17T2,SVTT, [View][Edit] [Remove]&#xA;" measuredWidth="630" measuredHeight="303" alternative="#eee">
+    <font/>
+    <items x="487" y="24" width="25" height="15" text="View"/>
+    <items x="515" y="24" width="20" height="15" text="Edit"/>
+    <items x="538" y="24" width="43" height="15" text="Remove"/>
+    <items x="487" y="45" width="25" height="15" text="View"/>
+    <items x="515" y="45" width="20" height="15" text="Edit"/>
+    <items x="538" y="45" width="43" height="15" text="Remove"/>
+    <items x="487" y="66" width="25" height="15" text="View"/>
+    <items x="515" y="66" width="20" height="15" text="Edit"/>
+    <items x="538" y="66" width="43" height="15" text="Remove"/>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="15" x="723" y="576" text="1,2,3,,...,10" measuredWidth="167" measuredHeight="27" selection="0">
+    <font/>
+    <items x="0" y="0" width="28" height="27" text="1"/>
+    <items x="28" y="0" width="27" height="27" text="2"/>
+    <items x="55" y="0" width="27" height="27" text="3"/>
+    <items x="82" y="0" width="21" height="27"/>
+    <items x="103" y="0" width="30" height="27" text="..."/>
+    <items x="133" y="0" width="34" height="27" text="10"/>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="16" x="744" y="232" text="1,2,3,...,10" measuredWidth="146" measuredHeight="27" selection="0">
+    <font/>
+    <items x="0" y="0" width="28" height="27" text="1"/>
+    <items x="28" y="0" width="27" height="27" text="2"/>
+    <items x="55" y="0" width="27" height="27" text="3"/>
+    <items x="82" y="0" width="30" height="27" text="..."/>
+    <items x="112" y="0" width="34" height="27" text="10"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="17" x="792" y="176" text="Thêm học viên" measuredWidth="98" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="18" x="448" y="233" text="Tìm kiếm" measuredWidth="69" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="19" x="360" y="272" width="14" height="14" measuredWidth="14" measuredHeight="14" icon="neutral (large)"/>
+  <widgets xsi:type="model:Icon" id="20" x="640" y="272" width="14" height="14" measuredWidth="14" measuredHeight="14" icon="neutral (large)"/>
+  <widgets xsi:type="model:Combo" id="21" x="528" y="234" width="75" text="Tất cả" measuredWidth="75" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:List" id="24" x="528" y="256" width="76" text="|Tất cả&#xA;Fresher&#xA;SVTT&#xA;" measuredWidth="76" measuredHeight="67">
+    <font/>
+    <items x="0" y="2" width="76" height="21" text="|Tất cả"/>
+    <items x="0" y="23" width="76" height="21" text="Fresher"/>
+    <items x="0" y="44" width="76" height="21" text="SVTT"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="38" x="360" y="912" width="14" height="14" measuredWidth="14" measuredHeight="14" icon="neutral (large)"/>
+  <widgets xsi:type="model:Icon" id="39" x="640" y="912" width="14" height="14" measuredWidth="14" measuredHeight="14" icon="neutral (large)"/>
+  <widgets xsi:type="model:Label" id="42" x="487" y="173" text="Danh sách học viên" measuredWidth="158" measuredHeight="31">
+    <font size="17px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Browser" id="44" x="104" y="688" width="800" height="600" text="Quản lý học viên&#xA;http://hv.fpt.com.vn/" measuredWidth="800" measuredHeight="600">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="45" x="104" y="792" width="800" measuredWidth="800" measuredHeight="6"/>
+  <widgets xsi:type="model:Icon" id="46" x="120" y="750" measuredWidth="32" measuredHeight="32" icon="home (large)"/>
+  <widgets xsi:type="model:SearchField" id="47" x="264" y="866" width="177" text="Search" measuredWidth="177" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="48" x="104" y="1240" width="800" measuredWidth="800" measuredHeight="6"/>
+  <widgets xsi:type="model:VLine" id="49" x="248" y="797" height="444" measuredWidth="6" measuredHeight="444"/>
+  <widgets xsi:type="model:VButtonBar" id="50" x="114" y="904" width="127" height="129" text="Học viên&#xA;Lịch học&#xA;Thống kê" measuredWidth="127" measuredHeight="129" selection="0">
+    <font/>
+    <items x="0" y="0" width="127" height="42" text="Học viên"/>
+    <items x="0" y="42" width="127" height="41" text="Lịch học"/>
+    <items x="0" y="83" width="127" height="46" text="Thống kê"/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="51" x="264" y="898" width="630" height="303" text="STT, Họ và tên, Email, Lớp, Đối tượng, Chức năng&#xA;1,Nguyễn Minh Hiếu, hieu@gmail.com, 17T1,Fresher, [View][Edit] [Remove]&#xA;2, Võ Thị Phúc, phuc@gmail.com , 17T1, Fresher, [View][Edit] [Remove]&#xA;3,Huỳnh Văn Hải , hai@gmail.com, 17T2,SVTT, [View][Edit] [Remove]&#xA;" measuredWidth="630" measuredHeight="303" alternative="#eee">
+    <font/>
+    <items x="487" y="24" width="25" height="15" text="View"/>
+    <items x="515" y="24" width="20" height="15" text="Edit"/>
+    <items x="538" y="24" width="43" height="15" text="Remove"/>
+    <items x="487" y="45" width="25" height="15" text="View"/>
+    <items x="515" y="45" width="20" height="15" text="Edit"/>
+    <items x="538" y="45" width="43" height="15" text="Remove"/>
+    <items x="487" y="66" width="25" height="15" text="View"/>
+    <items x="515" y="66" width="20" height="15" text="Edit"/>
+    <items x="538" y="66" width="43" height="15" text="Remove"/>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="52" x="723" y="1208" text="1,2,3,,...,10" measuredWidth="167" measuredHeight="27" selection="0">
+    <font/>
+    <items x="0" y="0" width="28" height="27" text="1"/>
+    <items x="28" y="0" width="27" height="27" text="2"/>
+    <items x="55" y="0" width="27" height="27" text="3"/>
+    <items x="82" y="0" width="21" height="27"/>
+    <items x="103" y="0" width="30" height="27" text="..."/>
+    <items x="133" y="0" width="34" height="27" text="10"/>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="53" x="744" y="864" text="1,2,3,...,10" measuredWidth="146" measuredHeight="27" selection="0">
+    <font/>
+    <items x="0" y="0" width="28" height="27" text="1"/>
+    <items x="28" y="0" width="27" height="27" text="2"/>
+    <items x="55" y="0" width="27" height="27" text="3"/>
+    <items x="82" y="0" width="30" height="27" text="..."/>
+    <items x="112" y="0" width="34" height="27" text="10"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="54" x="792" y="808" text="Thêm học viên" measuredWidth="98" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="55" x="448" y="865" text="Tìm kiếm" measuredWidth="69" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="56" x="360" y="904" width="14" height="14" measuredWidth="14" measuredHeight="14" icon="neutral (large)"/>
+  <widgets xsi:type="model:Icon" id="57" x="640" y="904" width="14" height="14" measuredWidth="14" measuredHeight="14" icon="neutral (large)"/>
+  <widgets xsi:type="model:Combo" id="58" x="528" y="866" width="75" text="Tất cả" measuredWidth="75" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="60" x="360" y="1544" width="14" height="14" measuredWidth="14" measuredHeight="14" icon="neutral (large)"/>
+  <widgets xsi:type="model:Icon" id="61" x="640" y="1544" width="14" height="14" measuredWidth="14" measuredHeight="14" icon="neutral (large)"/>
+  <widgets xsi:type="model:Label" id="62" x="487" y="805" text="Danh sách học viên" measuredWidth="158" measuredHeight="31">
+    <font size="17px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Alert" id="63" x="314" y="853" text="Thông báo&#xA;Bạn chắc chắn muốn xóa học viên Nguyễn Minh Hiếu?&#xA;Xác nhận,Hủy" measuredWidth="379" measuredHeight="132" icon="warning (large)">
+    <items x="189" y="93" width="80" height="24" text="Xác nhận"/>
+    <items x="284" y="93" width="80" height="24" text="Hủy"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Browser" id="64" x="104" y="1312" width="800" height="600" text="Quản lý học viên&#xA;http://hv.fpt.com.vn/" measuredWidth="800" measuredHeight="600">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="65" x="104" y="1416" width="800" measuredWidth="800" measuredHeight="6"/>
+  <widgets xsi:type="model:Icon" id="66" x="120" y="1374" measuredWidth="32" measuredHeight="32" icon="home (large)"/>
+  <widgets xsi:type="model:HLine" id="68" x="104" y="1864" width="800" measuredWidth="800" measuredHeight="6"/>
+  <widgets xsi:type="model:VLine" id="69" x="248" y="1421" height="444" measuredWidth="6" measuredHeight="444"/>
+  <widgets xsi:type="model:VButtonBar" id="70" x="114" y="1528" width="127" height="129" text="Học viên&#xA;Lịch học&#xA;Thống kê" measuredWidth="127" measuredHeight="129" selection="0">
+    <font/>
+    <items x="0" y="0" width="127" height="42" text="Học viên"/>
+    <items x="0" y="42" width="127" height="41" text="Lịch học"/>
+    <items x="0" y="83" width="127" height="46" text="Thống kê"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="80" x="360" y="2168" width="14" height="14" measuredWidth="14" measuredHeight="14" icon="neutral (large)"/>
+  <widgets xsi:type="model:Icon" id="81" x="640" y="2168" width="14" height="14" measuredWidth="14" measuredHeight="14" icon="neutral (large)"/>
+  <widgets xsi:type="model:Browser" id="83" x="104" y="1944" width="800" height="600" text="Quản lý học viên&#xA;http://hv.fpt.com.vn/" measuredWidth="800" measuredHeight="600">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="84" x="104" y="2048" width="800" measuredWidth="800" measuredHeight="6"/>
+  <widgets xsi:type="model:Icon" id="85" x="120" y="2006" measuredWidth="32" measuredHeight="32" icon="home (large)"/>
+  <widgets xsi:type="model:HLine" id="87" x="104" y="2496" width="800" measuredWidth="800" measuredHeight="6"/>
+  <widgets xsi:type="model:VLine" id="88" x="248" y="2053" height="444" measuredWidth="6" measuredHeight="444"/>
+  <widgets xsi:type="model:VButtonBar" id="89" x="114" y="2160" width="127" height="129" text="Học viên&#xA;Lịch học&#xA;Thống kê" measuredWidth="127" measuredHeight="129" selection="1">
+    <font/>
+    <items x="0" y="0" width="127" height="42" text="Học viên"/>
+    <items x="0" y="42" width="127" height="41" text="Lịch học"/>
+    <items x="0" y="83" width="127" height="46" text="Thống kê"/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="90" x="264" y="2154" width="630" height="303" text="STT, Lớp, Giáo viên, Số buổi, Thời gian bắt đầu, Thời gian kết thúc, Chức năng&#xA;1,Java_8, Nguyễn Minh Hiếu, 15,10/10/2020, 12/12/2020, [View][Edit] [Remove]&#xA;2, PHP_7, Nguyễn Văn Hiền , 15,10/10/2020, 12/12/2020, [View][Edit] [Remove]&#xA;3,Tieng_Anh_33 , Võ Thanh Hậu, 15,10/10/2020, 12/12/2020, [View][Edit] [Remove]&#xA;" measuredWidth="630" measuredHeight="303" alternative="#eee">
+    <font/>
+    <items x="520" y="24" width="25" height="15" text="View"/>
+    <items x="548" y="24" width="20" height="15" text="Edit"/>
+    <items x="571" y="24" width="43" height="15" text="Remove"/>
+    <items x="520" y="45" width="25" height="15" text="View"/>
+    <items x="548" y="45" width="20" height="15" text="Edit"/>
+    <items x="571" y="45" width="43" height="15" text="Remove"/>
+    <items x="520" y="66" width="25" height="15" text="View"/>
+    <items x="548" y="66" width="20" height="15" text="Edit"/>
+    <items x="571" y="66" width="43" height="15" text="Remove"/>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="91" x="769" y="2464" text="1,2,...,10" measuredWidth="119" measuredHeight="27" selection="0">
+    <font/>
+    <items x="0" y="0" width="28" height="27" text="1"/>
+    <items x="28" y="0" width="27" height="27" text="2"/>
+    <items x="55" y="0" width="30" height="27" text="..."/>
+    <items x="85" y="0" width="34" height="27" text="10"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="137" x="360" y="4064" width="14" height="14" measuredWidth="14" measuredHeight="14" icon="neutral (large)"/>
+  <widgets xsi:type="model:Icon" id="138" x="640" y="4064" width="14" height="14" measuredWidth="14" measuredHeight="14" icon="neutral (large)"/>
+  <widgets xsi:type="model:Label" id="141" x="505" y="1432" text="Thêm học viên" measuredWidth="122" measuredHeight="31">
+    <font size="17px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="143" x="410" y="1497" text="Họ và tên:" measuredWidth="65" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="144" x="410" y="1527" text="Email:" measuredWidth="40" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="145" x="505" y="1498" width="233" text="Nguyễn Minh Hiếu" measuredWidth="233" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="146" x="505" y="1528" width="233" text="hieu@gmail.com" measuredWidth="233" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="147" x="410" y="1616" text="Đối tượng" measuredWidth="65" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" id="150" x="505" y="1617" text="Sinh viên thực tập" measuredWidth="115" measuredHeight="23" selected="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" id="151" x="640" y="1617" text="Fresher" measuredWidth="58" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="152" x="410" y="1557" text="Ngày sinh:" measuredWidth="67" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="153" x="410" y="1587" text="Số điện thoại:" measuredWidth="86" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="154" x="505" y="1558" width="233" text="20/09/1999" measuredWidth="233" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="155" x="505" y="1588" width="233" text="0123456789" measuredWidth="233" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="156" x="615" y="1648" text="Quay lại" measuredWidth="63" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="157" x="692" y="1648" text="Tiếp" measuredWidth="42" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Browser" id="158" x="104" y="3848" width="800" height="600" text="Quản lý học viên&#xA;http://hv.fpt.com.vn/" measuredWidth="800" measuredHeight="600">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="159" x="104" y="3952" width="800" measuredWidth="800" measuredHeight="6"/>
+  <widgets xsi:type="model:Icon" id="160" x="120" y="3910" measuredWidth="32" measuredHeight="32" icon="home (large)"/>
+  <widgets xsi:type="model:HLine" id="161" x="104" y="4400" width="800" measuredWidth="800" measuredHeight="6"/>
+  <widgets xsi:type="model:VLine" id="162" x="248" y="3957" height="444" measuredWidth="6" measuredHeight="444"/>
+  <widgets xsi:type="model:VButtonBar" id="163" x="114" y="4064" width="127" height="129" text="Học viên&#xA;Lịch học&#xA;Thống kê" measuredWidth="127" measuredHeight="129" selection="0">
+    <font/>
+    <items x="0" y="0" width="127" height="42" text="Học viên"/>
+    <items x="0" y="42" width="127" height="41" text="Lịch học"/>
+    <items x="0" y="83" width="127" height="46" text="Thống kê"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="164" x="505" y="3968" text="Thêm học viên" measuredWidth="122" measuredHeight="31">
+    <font size="17px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="165" x="410" y="4033" text="Họ và tên:" measuredWidth="65" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="166" x="410" y="4063" text="Email:" measuredWidth="40" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="167" x="505" y="4034" width="233" text="Nguyễn Minh Hiếu" measuredWidth="233" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="168" x="505" y="4064" width="233" text="hieu@gmail.com" measuredWidth="233" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="169" x="410" y="4152" text="Đối tượng" measuredWidth="65" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" id="170" x="505" y="4153" text="Sinh viên thực tập" measuredWidth="115" measuredHeight="23" selected="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" id="171" x="640" y="4153" text="Fresher" measuredWidth="58" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="172" x="410" y="4093" text="Ngày sinh:" measuredWidth="67" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="173" x="410" y="4123" text="Số điện thoại:" measuredWidth="86" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="174" x="505" y="4094" width="233" text="20/09/1999" measuredWidth="233" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="175" x="505" y="4124" width="233" text="0123456789" measuredWidth="233" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="178" x="410" y="4183" text="MSSV:" measuredWidth="43" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="181" x="410" y="4215" text="Lớp:" measuredWidth="31" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="182" x="410" y="4247" text="Khoa:" measuredWidth="39" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="183" x="410" y="4279" text="Trường:" measuredWidth="51" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="184" x="505" y="4184" width="233" text="102170084" measuredWidth="233" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="185" x="505" y="4216" width="233" text="17T2" measuredWidth="233" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="186" x="505" y="4248" width="233" text="CNTT" measuredWidth="233" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="187" x="505" y="4280" width="233" text="DHBK" measuredWidth="233" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="188" x="626" y="4368" text="Thêm và quay lại" measuredWidth="109" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="189" x="509" y="4368" text="Thêm và tiếp tục" measuredWidth="108" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Browser" id="190" x="104" y="4472" width="800" height="600" text="Quản lý học viên&#xA;http://hv.fpt.com.vn/" measuredWidth="800" measuredHeight="600">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="191" x="104" y="4576" width="800" measuredWidth="800" measuredHeight="6"/>
+  <widgets xsi:type="model:Icon" id="192" x="120" y="4534" measuredWidth="32" measuredHeight="32" icon="home (large)"/>
+  <widgets xsi:type="model:HLine" id="193" x="104" y="5024" width="800" measuredWidth="800" measuredHeight="6"/>
+  <widgets xsi:type="model:VLine" id="194" x="248" y="4581" height="444" measuredWidth="6" measuredHeight="444"/>
+  <widgets xsi:type="model:VButtonBar" id="195" x="114" y="4688" width="127" height="129" text="Học viên&#xA;Lịch học&#xA;Thống kê" measuredWidth="127" measuredHeight="129" selection="0">
+    <font/>
+    <items x="0" y="0" width="127" height="42" text="Học viên"/>
+    <items x="0" y="42" width="127" height="41" text="Lịch học"/>
+    <items x="0" y="83" width="127" height="46" text="Thống kê"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="196" x="410" y="4657" text="Họ và tên:" measuredWidth="65" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="197" x="410" y="4687" text="Email:" measuredWidth="40" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="198" x="536" y="4658" width="202" text="Nguyễn Minh Hiếu" measuredWidth="202" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="199" x="536" y="4688" width="202" text="hieu@gmail.com" measuredWidth="202" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="200" x="410" y="4776" text="Đối tượng" measuredWidth="65" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" id="201" x="505" y="4777" text="Sinh viên thực tập" measuredWidth="115" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" id="202" x="640" y="4777" text="Fresher" measuredWidth="58" measuredHeight="23" selected="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="203" x="410" y="4717" text="Ngày sinh:" measuredWidth="67" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="204" x="410" y="4747" text="Số điện thoại:" measuredWidth="86" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="205" x="536" y="4718" width="202" text="20/09/1999" measuredWidth="202" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="206" x="536" y="4748" width="202" text="0123456789" measuredWidth="202" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="209" x="410" y="4807" text="Trường tốt nghiệp:" measuredWidth="115" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="210" x="407" y="4839" text="Chuyên ngành:" measuredWidth="91" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="211" x="410" y="4871" text="Năm tốt nghiệp:" measuredWidth="101" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="213" x="536" y="4840" width="202" text="17T2" measuredWidth="202" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="216" x="626" y="4992" text="Thêm và quay lại" measuredWidth="109" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="217" x="509" y="4992" text="Thêm và tiếp tục" measuredWidth="108" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="218" x="536" y="4808" width="202" text="102170084" measuredWidth="202" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="219" x="505" y="4592" text="Thêm học viên" measuredWidth="122" measuredHeight="31">
+    <font size="17px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Browser" id="220" x="104" y="5104" width="800" height="600" text="Quản lý học viên&#xA;http://hv.fpt.com.vn/" measuredWidth="800" measuredHeight="600">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="221" x="104" y="5208" width="800" measuredWidth="800" measuredHeight="6"/>
+  <widgets xsi:type="model:Icon" id="222" x="120" y="5166" measuredWidth="32" measuredHeight="32" icon="home (large)"/>
+  <widgets xsi:type="model:HLine" id="223" x="104" y="5656" width="800" measuredWidth="800" measuredHeight="6"/>
+  <widgets xsi:type="model:VLine" id="224" x="248" y="5213" height="444" measuredWidth="6" measuredHeight="444"/>
+  <widgets xsi:type="model:VButtonBar" id="225" x="114" y="5320" width="127" height="129" text="Học viên&#xA;Lịch học&#xA;Thống kê" measuredWidth="127" measuredHeight="129" selection="0">
+    <font/>
+    <items x="0" y="0" width="127" height="42" text="Học viên"/>
+    <items x="0" y="42" width="127" height="41" text="Lịch học"/>
+    <items x="0" y="83" width="127" height="46" text="Thống kê"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="226" x="410" y="5289" text="Họ và tên:" measuredWidth="65" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="227" x="410" y="5319" text="Email:" measuredWidth="40" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="228" x="528" y="5290" width="210" text="Nguyễn Minh Hiếu" measuredWidth="210" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="229" x="528" y="5320" width="210" text="hieu@gmail.com" measuredWidth="210" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="230" x="410" y="5408" text="Đối tượng" measuredWidth="65" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" id="231" x="528" y="5409" text="Sinh viên thực tập" measuredWidth="115" measuredHeight="23" selected="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" id="232" x="684" y="5409" text="Fresher" measuredWidth="58" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="233" x="410" y="5349" text="Ngày sinh:" measuredWidth="67" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="234" x="410" y="5379" text="Số điện thoại:" measuredWidth="86" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="235" x="528" y="5350" width="210" text="20/09/1999" measuredWidth="210" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="236" x="528" y="5380" width="210" text="0123456789" measuredWidth="210" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="239" x="410" y="5448" text="Trường tốt nghiệp:" measuredWidth="115" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="240" x="410" y="5480" text="Chuyên ngành:" measuredWidth="91" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="241" x="410" y="5512" text="Năm tốt nghiệp:" measuredWidth="101" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="242" x="528" y="5481" width="210" text="17T2" measuredWidth="210" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="244" x="528" y="5449" width="210" text="102170084" measuredWidth="210" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="245" x="451" y="5232" text="Cập nhật thông tin học viên" measuredWidth="229" measuredHeight="31">
+    <font size="17px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="246" x="670" y="5616" text="Xác nhận" measuredWidth="69" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="247" x="590" y="5616" text="Quay lại" measuredWidth="63" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Browser" id="249" x="104" y="5736" width="800" height="600" text="Quản lý học viên&#xA;http://hv.fpt.com.vn/" measuredWidth="800" measuredHeight="600">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="250" x="104" y="5840" width="800" measuredWidth="800" measuredHeight="6"/>
+  <widgets xsi:type="model:Icon" id="251" x="120" y="5798" measuredWidth="32" measuredHeight="32" icon="home (large)"/>
+  <widgets xsi:type="model:HLine" id="252" x="104" y="6288" width="800" measuredWidth="800" measuredHeight="6"/>
+  <widgets xsi:type="model:VLine" id="253" x="248" y="5845" height="444" measuredWidth="6" measuredHeight="444"/>
+  <widgets xsi:type="model:VButtonBar" id="254" x="114" y="5952" width="127" height="129" text="Học viên&#xA;Lịch học&#xA;Thống kê" measuredWidth="127" measuredHeight="129" selection="0">
+    <font/>
+    <items x="0" y="0" width="127" height="42" text="Học viên"/>
+    <items x="0" y="42" width="127" height="41" text="Lịch học"/>
+    <items x="0" y="83" width="127" height="46" text="Thống kê"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="255" x="410" y="5921" text="Họ và tên:" measuredWidth="65" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="256" x="410" y="5951" text="Email:" measuredWidth="40" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="257" x="528" y="5922" width="210" text="Nguyễn Minh Hiếu" measuredWidth="210" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="258" x="528" y="5952" width="210" text="hieu@gmail.com" measuredWidth="210" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="259" x="410" y="6040" text="Đối tượng" measuredWidth="65" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" id="260" x="528" y="6041" text="Sinh viên thực tập" measuredWidth="115" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" id="261" x="676" y="6041" text="Fresher" measuredWidth="58" measuredHeight="23" selected="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="262" x="410" y="5981" text="Ngày sinh:" measuredWidth="67" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="263" x="410" y="6011" text="Số điện thoại:" measuredWidth="86" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="264" x="528" y="5982" width="210" text="20/09/1999" measuredWidth="210" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="265" x="528" y="6012" width="210" text="0123456789" measuredWidth="210" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="272" x="670" y="6248" text="Xác nhận" measuredWidth="69" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="273" x="590" y="6248" text="Quay lại" measuredWidth="63" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="274" x="410" y="6071" text="MSSV:" measuredWidth="43" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="275" x="410" y="6103" text="Lớp:" measuredWidth="31" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="276" x="410" y="6135" text="Khoa:" measuredWidth="39" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="277" x="410" y="6167" text="Trường:" measuredWidth="51" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="278" x="536" y="6072" width="202" text="102170084" measuredWidth="202" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="279" x="536" y="6104" width="202" text="17T2" measuredWidth="202" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="280" x="536" y="6136" width="202" text="CNTT" measuredWidth="202" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="281" x="536" y="6168" width="202" text="DHBK" measuredWidth="202" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="282" x="464" y="5864" text="Cập nhật thông tin học viên" measuredWidth="229" measuredHeight="31">
+    <font size="17px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="283" x="484" y="2064" text="Danh sách lịch dạy" measuredWidth="154" measuredHeight="31">
+    <font size="17px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:SearchField" id="284" x="278" y="2120" width="177" text="Search" measuredWidth="177" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="285" x="678" y="2119" text="Tìm kiếm" measuredWidth="69" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="287" x="794" y="2067" text="Thêm lịch dạy" measuredWidth="94" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="288" x="769" y="2118" text="1,2,...,10" measuredWidth="119" measuredHeight="27" selection="0">
+    <font/>
+    <items x="0" y="0" width="28" height="27" text="1"/>
+    <items x="28" y="0" width="27" height="27" text="2"/>
+    <items x="55" y="0" width="30" height="27" text="..."/>
+    <items x="85" y="0" width="34" height="27" text="10"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="289" x="474" y="2120" width="87" text="start time" measuredWidth="87" measuredHeight="23" alpha="192">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="290" x="580" y="2120" width="84" text="end time" measuredWidth="84" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Browser" id="291" x="104" y="2576" width="800" height="600" text="Quản lý học viên&#xA;http://hv.fpt.com.vn/" measuredWidth="800" measuredHeight="600">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="292" x="104" y="2680" width="800" measuredWidth="800" measuredHeight="6"/>
+  <widgets xsi:type="model:Icon" id="293" x="120" y="2638" measuredWidth="32" measuredHeight="32" icon="home (large)"/>
+  <widgets xsi:type="model:HLine" id="294" x="104" y="3128" width="800" measuredWidth="800" measuredHeight="6"/>
+  <widgets xsi:type="model:VLine" id="295" x="248" y="2685" height="444" measuredWidth="6" measuredHeight="444"/>
+  <widgets xsi:type="model:VButtonBar" id="296" x="114" y="2792" width="127" height="129" text="Học viên&#xA;Lịch học&#xA;Thống kê" measuredWidth="127" measuredHeight="129" selection="0">
+    <font/>
+    <items x="0" y="0" width="127" height="42" text="Học viên"/>
+    <items x="0" y="42" width="127" height="41" text="Lịch học"/>
+    <items x="0" y="83" width="127" height="46" text="Thống kê"/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="297" x="264" y="2786" width="630" height="303" text="STT, Lớp, Giáo viên, Số buổi, Thời gian bắt đầu, Thời gian kết thúc, Chức năng&#xA;1,Java_8, Nguyễn Minh Hiếu, 15,10/10/2020, 12/12/2020, [View][Edit] [Remove]&#xA;2, PHP_7, Nguyễn Văn Hiền , 15,10/10/2020, 12/12/2020, [View][Edit] [Remove]&#xA;3,Tieng_Anh_33 , Võ Thanh Hậu, 15,10/10/2020, 12/12/2020, [View][Edit] [Remove]&#xA;" measuredWidth="630" measuredHeight="303" alternative="#eee">
+    <font/>
+    <items x="520" y="24" width="25" height="15" text="View"/>
+    <items x="548" y="24" width="20" height="15" text="Edit"/>
+    <items x="571" y="24" width="43" height="15" text="Remove"/>
+    <items x="520" y="45" width="25" height="15" text="View"/>
+    <items x="548" y="45" width="20" height="15" text="Edit"/>
+    <items x="571" y="45" width="43" height="15" text="Remove"/>
+    <items x="520" y="66" width="25" height="15" text="View"/>
+    <items x="548" y="66" width="20" height="15" text="Edit"/>
+    <items x="571" y="66" width="43" height="15" text="Remove"/>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="298" x="769" y="3096" text="1,2,...,10" measuredWidth="119" measuredHeight="27" selection="0">
+    <font/>
+    <items x="0" y="0" width="28" height="27" text="1"/>
+    <items x="28" y="0" width="27" height="27" text="2"/>
+    <items x="55" y="0" width="30" height="27" text="..."/>
+    <items x="85" y="0" width="34" height="27" text="10"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="299" x="678" y="2751" text="Tìm kiếm" measuredWidth="69" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="300" x="794" y="2699" text="Thêm lịch dạy" measuredWidth="94" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="301" x="769" y="2750" text="1,2,...,10" measuredWidth="119" measuredHeight="27" selection="0">
+    <font/>
+    <items x="0" y="0" width="28" height="27" text="1"/>
+    <items x="28" y="0" width="27" height="27" text="2"/>
+    <items x="55" y="0" width="30" height="27" text="..."/>
+    <items x="85" y="0" width="34" height="27" text="10"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="302" x="474" y="2752" width="87" text="start time" measuredWidth="87" measuredHeight="23" alpha="192">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="303" x="580" y="2752" width="84" text="end time" measuredWidth="84" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:SearchField" id="304" x="278" y="2752" width="177" text="Search" measuredWidth="177" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="305" x="484" y="2696" text="Danh sách lịch dạy" measuredWidth="154" measuredHeight="31">
+    <font size="17px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Alert" id="306" x="424" y="2776" text="Thông báo&#xA;Bạn chắc chắn muốn xóa lớp Java_8?&#xA;Xác nhận, Hủy" measuredWidth="283" measuredHeight="132" icon="warning (large)">
+    <items x="93" y="93" width="80" height="24" text="Xác nhận"/>
+    <items x="188" y="93" width="80" height="24" text="Hủy"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Browser" id="307" x="104" y="3208" width="800" height="600" text="Quản lý học viên&#xA;http://hv.fpt.com.vn/" measuredWidth="800" measuredHeight="600">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="308" x="104" y="3312" width="800" measuredWidth="800" measuredHeight="6"/>
+  <widgets xsi:type="model:Icon" id="309" x="120" y="3270" measuredWidth="32" measuredHeight="32" icon="home (large)"/>
+  <widgets xsi:type="model:HLine" id="310" x="104" y="3760" width="800" measuredWidth="800" measuredHeight="6"/>
+  <widgets xsi:type="model:VLine" id="311" x="248" y="3317" height="444" measuredWidth="6" measuredHeight="444"/>
+  <widgets xsi:type="model:VButtonBar" id="312" x="114" y="3424" width="127" height="129" text="Học viên&#xA;Lịch học&#xA;Thống kê" measuredWidth="127" measuredHeight="129" selection="1">
+    <font/>
+    <items x="0" y="0" width="127" height="42" text="Học viên"/>
+    <items x="0" y="42" width="127" height="41" text="Lịch học"/>
+    <items x="0" y="83" width="127" height="46" text="Thống kê"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="315" x="484" y="3328" text="Thêm lớp học" measuredWidth="116" measuredHeight="31">
+    <font size="17px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="322" x="528" y="5513" text="2020" measuredWidth="51" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="323" x="537" y="4872" text="2020" measuredWidth="51" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="324" x="387" y="3383" text="Tên lớp học:" measuredWidth="77" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="325" x="384" y="3413" text="Số lượng:" measuredWidth="62" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="326" x="487" y="3384" width="233" measuredWidth="233" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="327" x="487" y="3414" width="233" measuredWidth="233" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="328" x="384" y="3448" text="Chọn giáo viên:" measuredWidth="96" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="329" x="487" y="3449" width="155" text="Nguyễn Văn A" measuredWidth="155" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="330" x="384" y="3476" text="Môn học:" measuredWidth="61" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="332" x="487" y="3477" width="155" text="Java" measuredWidth="155" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="333" x="512" y="3720" text="Lưu và tiếp tục" measuredWidth="98" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="334" x="619" y="3720" text="Lưu và quay lại" measuredWidth="99" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="335" x="381" y="3512" text="Ngày bắt đầu:" measuredWidth="89" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="336" x="380" y="3548" measuredWidth="6" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="337" x="483" y="3548" text="Tiết:" measuredWidth="30" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="338" x="521" y="3548" text="Từ: " measuredWidth="28" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="339" x="617" y="3548" text="Đến:" measuredWidth="32" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="340" x="487" y="3513" width="233" text="21/20/2020" measuredWidth="233" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="342" x="556" y="3549" width="45" text="1" measuredWidth="45" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="343" x="658" y="3549" width="45" text="2" measuredWidth="45" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="345" x="385" y="3549" width="82" text="Thứ 2" measuredWidth="82" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="346" x="385" y="3584" width="82" text="Thứ 4" measuredWidth="82" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="347" x="483" y="3583" text="Tiết:" measuredWidth="30" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="348" x="521" y="3583" text="Từ: " measuredWidth="28" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="349" x="556" y="3584" width="45" text="1" measuredWidth="45" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="350" x="617" y="3583" text="Đến:" measuredWidth="32" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="351" x="658" y="3584" width="45" text="2" measuredWidth="45" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="352" x="733" y="3584" width="24" height="24" measuredWidth="24" measuredHeight="24" icon="circled-plus (large)"/>
+  <widgets xsi:type="model:Label" id="353" x="768" y="3583" text="Thêm lịch" measuredWidth="61" measuredHeight="25">
+    <font size="13px"/>
+  </widgets>
+  <widgets xsi:type="model:Browser" id="354" x="104" y="6368" width="800" height="600" text="Quản lý lịch học&#xA;http://hv.fpt.com.vn/" measuredWidth="800" measuredHeight="600">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="355" x="104" y="6472" width="800" measuredWidth="800" measuredHeight="6"/>
+  <widgets xsi:type="model:Icon" id="356" x="120" y="6430" measuredWidth="32" measuredHeight="32" icon="home (large)"/>
+  <widgets xsi:type="model:HLine" id="357" x="104" y="6920" width="800" measuredWidth="800" measuredHeight="6"/>
+  <widgets xsi:type="model:VLine" id="358" x="248" y="6477" height="444" measuredWidth="6" measuredHeight="444"/>
+  <widgets xsi:type="model:VButtonBar" id="359" x="114" y="6584" width="127" height="129" text="Học viên&#xA;Lịch học&#xA;Thống kê" measuredWidth="127" measuredHeight="129" selection="1">
+    <font/>
+    <items x="0" y="0" width="127" height="42" text="Học viên"/>
+    <items x="0" y="42" width="127" height="41" text="Lịch học"/>
+    <items x="0" y="83" width="127" height="46" text="Thống kê"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="360" x="484" y="6488" text="Cập nhật lớp học" measuredWidth="143" measuredHeight="31">
+    <font size="17px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="361" x="387" y="6543" text="Tên lớp học:" measuredWidth="77" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="362" x="384" y="6573" text="Số lượng:" measuredWidth="62" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="363" x="487" y="6544" width="233" text="java_8" measuredWidth="233" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="364" x="487" y="6574" width="233" text="50" measuredWidth="233" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="365" x="384" y="6608" text="Chọn giáo viên:" measuredWidth="96" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="366" x="487" y="6609" width="155" text="Nguyễn Văn A" measuredWidth="155" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="367" x="384" y="6636" text="Môn học:" measuredWidth="61" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="368" x="487" y="6637" width="155" text="Java" measuredWidth="155" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="369" x="512" y="6880" text="Lưu và tiếp tục" measuredWidth="98" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="370" x="619" y="6880" text="Lưu và quay lại" measuredWidth="99" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="371" x="381" y="6672" text="Ngày bắt đầu:" measuredWidth="89" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="372" x="483" y="6741" text="Tiết:" measuredWidth="30" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="373" x="521" y="6741" text="Từ: " measuredWidth="28" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="374" x="617" y="6741" text="Đến:" measuredWidth="32" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="375" x="487" y="6673" width="233" text="21/20/2020" measuredWidth="233" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="376" x="556" y="6742" width="45" text="1" measuredWidth="45" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="377" x="658" y="6742" width="45" text="2" measuredWidth="45" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="378" x="385" y="6742" width="82" text="Thứ 2" measuredWidth="82" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="379" x="385" y="6784" width="82" text="Thứ 4" measuredWidth="82" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="380" x="483" y="6783" text="Tiết:" measuredWidth="30" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="381" x="521" y="6783" text="Từ: " measuredWidth="28" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="382" x="556" y="6784" width="45" text="1" measuredWidth="45" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="383" x="617" y="6783" text="Đến:" measuredWidth="32" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="384" x="658" y="6784" width="45" text="2" measuredWidth="45" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="385" x="756" y="6784" width="24" height="24" measuredWidth="24" measuredHeight="24" icon="circled-plus (large)"/>
+  <widgets xsi:type="model:Icon" id="387" x="723" y="6742" measuredWidth="24" measuredHeight="24" icon="circled-minus (medium)"/>
+  <widgets xsi:type="model:Icon" id="388" x="723" y="6784" measuredWidth="24" measuredHeight="24" icon="circled-minus (medium)"/>
+  <widgets xsi:type="model:Label" id="389" x="384" y="6708" text="Tổng số tiết:" measuredWidth="79" measuredHeight="25">
+    <font size="13px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="390" x="487" y="6709" width="233" measuredWidth="233" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

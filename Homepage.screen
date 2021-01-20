@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="98" y="72" width="800" height="600" text="Browser&#xA;http://timkiemvieclam.vn/" measuredWidth="800" measuredHeight="600">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="2" x="611" y="133" height="33" text="Đăng nhập" measuredWidth="78" measuredHeight="33">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="3" x="696" y="133" width="73" height="33" text="Đăng ký" measuredWidth="73" measuredHeight="33">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:SearchField" id="4" x="264" y="134" width="329" text="Tìm kiếm" measuredWidth="329" measuredHeight="31">
+    <font size="17px"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="5" x="162" y="134" measuredWidth="32" measuredHeight="32" icon="home (large)"/>
+  <widgets xsi:type="model:Group" id="10" x="112" y="187" width="537" height="404" text="Container" measuredWidth="537" measuredHeight="404">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="11" x="272" y="165" text="Đầu bếp" measuredWidth="47" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="12" x="328" y="165" text="Bán báo" measuredWidth="46" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="13" x="376" y="165" text="IT" measuredWidth="12" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="17" x="122" y="204" width="511" height="101" text="Công việc" measuredWidth="511" measuredHeight="101">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="18" x="125" y="317" width="511" height="101" text="Công việc" measuredWidth="511" measuredHeight="101">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="19" x="125" y="427" width="511" height="101" text="Công việc" measuredWidth="511" measuredHeight="101">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="21" x="740" y="495" measuredWidth="48" measuredHeight="48" icon="help (xlarge)"/>
+  <widgets xsi:type="model:Icon" id="22" x="783" y="134" width="42" height="31" measuredWidth="42" measuredHeight="31" icon="list-bullet (large)"/>
+  <widgets xsi:type="model:Label" id="23" x="200" y="135" text="LOGO" measuredWidth="58" measuredHeight="33">
+    <font size="19px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="24" x="672" y="187" width="208" height="404" text="Quảng cáo" measuredWidth="208" measuredHeight="404">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="14" x="688" y="211" width="177" height="103" text="Quảng cáo 1" measuredWidth="177" measuredHeight="103">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:LinkBar" id="25" x="334" y="568" text="1,2,...,6" measuredWidth="94" measuredHeight="23">
+    <font/>
+    <items x="0" y="0" width="9" height="23" text="1"/>
+    <items x="27" y="0" width="9" height="23" text="2"/>
+    <items x="54" y="0" width="12" height="23" text="..."/>
+    <items x="84" y="0" width="9" height="23" text="6"/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="26" x="112" y="600" width="768" height="62" text="Footer" measuredWidth="768" measuredHeight="62">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Callout" id="27" x="811" y="590" width="54" height="54" text="?" measuredWidth="54" measuredHeight="54" background="#fff">
+    <font size="39px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="28" x="687" y="324" width="177" height="103" text="Quảng cáo 1" measuredWidth="177" measuredHeight="103">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="29" x="688" y="444" width="177" height="103" text="Quảng cáo 1" measuredWidth="177" measuredHeight="103">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

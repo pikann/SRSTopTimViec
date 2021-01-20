@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:WidgetGroup" id="43" x="56" y="96" measuredWidth="800" measuredHeight="600">
+    <widgets xsi:type="model:Browser" id="1" width="800" height="600" text="Hiển thị CV&#xA;http://timkiemvieclam.vn/showcv" measuredWidth="800" measuredHeight="600">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="2" x="26" y="61" measuredWidth="32" measuredHeight="32" icon="home (large)"/>
+    <widgets xsi:type="model:Label" id="3" x="64" y="62" text="LOGO" measuredWidth="58" measuredHeight="33">
+      <font size="19px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Arrow" id="4" y="104" width="800" height="8" measuredWidth="800" measuredHeight="8" left="false" direction="bottom"/>
+    <widgets xsi:type="model:Label" id="5" x="612" y="70" text="Xin chào, Hiếu Minh" measuredWidth="133" measuredHeight="25">
+      <font size="13px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="6" x="744" y="63" measuredWidth="32" measuredHeight="32" icon="user (large)"/>
+    <widgets xsi:type="model:Group" id="7" x="15" y="111" width="537" height="404" text="Container" measuredWidth="537" measuredHeight="404">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:List" id="45" x="619" y="104" text="Bạn đã được đồng ý ứng...&#xA;Bạn đã được đồng ý ứng...&#xA;Bạn đã không được đồng...&#xA;Bạn đã không được đồng...&#xA;(bg:green)|Hiển thị nhiều hơn&#xA;" measuredWidth="171" measuredHeight="109" verticalScrollbar="true" horizontalLines="true">
+      <font/>
+      <items x="0" y="2" width="154" height="21" text="Bạn đã được đồng ý ứng..."/>
+      <items x="0" y="23" width="154" height="21" text="Bạn đã được đồng ý ứng..."/>
+      <items x="0" y="44" width="154" height="21" text="Bạn đã không được đồng..."/>
+      <items x="0" y="65" width="154" height="21" text="Bạn đã không được đồng..."/>
+      <items x="0" y="86" width="154" height="21" text="(bg:green)|Hiển thị nhiều hơn"/>
+    </widgets>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

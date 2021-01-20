@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="8" x="72" y="10" width="800" height="600" text="&#xA;http://timkiemvieclam.vn/login" measuredWidth="800" measuredHeight="600">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="16" x="280" y="88" width="401" height="480" measuredWidth="401" measuredHeight="480"/>
+  <widgets xsi:type="model:Link" id="14" x="428" y="482" text="Quên mật khẩu" measuredWidth="103" measuredHeight="28">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="9" x="386" y="112" width="187" height="185" measuredWidth="187" measuredHeight="185" icon="image (large)"/>
+  <widgets xsi:type="model:TextField" id="10" x="359" y="314" width="241" text="Username" measuredWidth="241" measuredHeight="28">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="11" x="359" y="362" width="241" text="Password" measuredWidth="241" measuredHeight="28">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="12" x="428" y="442" width="103" text="Đăng ký" measuredWidth="103" measuredHeight="30">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="13" x="428" y="402" width="103" text="Đăng nhập" measuredWidth="103" measuredHeight="30">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="14px"/>
+</model:Screen>

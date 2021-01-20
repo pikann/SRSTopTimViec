@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="56" y="96" width="800" height="600" text="Cài đặt Chatbox&#xA;http://timkiemvieclam.vn/chatboxsetting" measuredWidth="800" measuredHeight="600">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="2" x="82" y="157" measuredWidth="32" measuredHeight="32" icon="home (large)"/>
+  <widgets xsi:type="model:Label" id="3" x="120" y="158" text="LOGO" measuredWidth="58" measuredHeight="33">
+    <font size="19px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="4" x="56" y="200" width="800" height="8" measuredWidth="800" measuredHeight="8" left="false" direction="bottom"/>
+  <widgets xsi:type="model:Label" id="5" x="668" y="166" text="Xin chào, Người tư vấn" measuredWidth="151" measuredHeight="25">
+    <font size="13px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="6" x="800" y="159" measuredWidth="32" measuredHeight="32" icon="user (large)"/>
+  <widgets xsi:type="model:Group" id="7" x="71" y="207" width="774" height="404" text="Container" measuredWidth="774" measuredHeight="404">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="8" x="71" y="620" width="768" height="62" text="Footer" measuredWidth="768" measuredHeight="62">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Callout" id="9" x="770" y="610" width="54" height="54" text="?" measuredWidth="54" measuredHeight="54" background="#fff">
+    <font size="39px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="10" x="82" y="224" text="Cài đặt Chatbox" measuredWidth="116" measuredHeight="28">
+    <font size="15px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="11" x="82" y="256" width="749" measuredWidth="749" measuredHeight="6"/>
+  <widgets xsi:type="model:Panel" id="13" x="257" y="293" width="432" height="240" measuredWidth="432" measuredHeight="240"/>
+  <widgets xsi:type="model:VScrollbar" id="14" x="687" y="293" height="240" measuredWidth="17" measuredHeight="240"/>
+  <widgets xsi:type="model:List" id="15" x="288" y="308" width="353" height="201" text="Câu hỏi 1?&#xA;Câu hỏi 2? &#xA;Câu hỏi 3?&#xA;Câu hỏi 4?&#xA;Câu hỏi 5?&#xA;Câu hỏi 6?&#xA;" measuredWidth="353" measuredHeight="201">
+    <font size="19px"/>
+    <items x="0" y="2" width="353" height="34" text="Câu hỏi 1?"/>
+    <items x="0" y="36" width="353" height="34" text="Câu hỏi 2? "/>
+    <items x="0" y="70" width="353" height="34" text="Câu hỏi 3?"/>
+    <items x="0" y="104" width="353" height="34" text="Câu hỏi 4?"/>
+    <items x="0" y="138" width="353" height="34" text="Câu hỏi 5?"/>
+    <items x="0" y="172" width="353" height="34" text="Câu hỏi 6?"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="20" x="576" y="316" text="Bỏ qua" measuredWidth="57" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="21" x="576" y="352" text="Bỏ qua" measuredWidth="57" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="22" x="576" y="420" text="Bỏ qua" measuredWidth="57" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="23" x="576" y="484" text="Bỏ qua" measuredWidth="57" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="24" x="516" y="316" text="Trả lời" measuredWidth="51" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="25" x="516" y="352" text="Trả lời" measuredWidth="51" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="26" x="516" y="420" text="Trả lời" measuredWidth="51" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="27" x="516" y="484" text="Trả lời" measuredWidth="51" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="28" x="576" y="452" text="Bỏ qua" measuredWidth="57" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="29" x="516" y="452" text="Trả lời" measuredWidth="51" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="30" x="576" y="383" text="Bỏ qua" measuredWidth="57" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="31" x="516" y="383" text="Trả lời" measuredWidth="51" measuredHeight="25">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

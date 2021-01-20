@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="176" y="104" width="800" height="600" text="Browser&#xA;http://timkiemvieclam.vn/" measuredWidth="800" measuredHeight="600">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="2" x="238" y="188" measuredWidth="32" measuredHeight="32" icon="home (large)"/>
+  <widgets xsi:type="model:Label" id="3" x="280" y="188" width="89" text="LOGO" measuredWidth="89" measuredHeight="31">
+    <font size="17px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:SearchField" id="4" x="360" y="188" width="241" text="Search" measuredWidth="241" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="5" x="664" y="188" width="97" text="Đăng nhập" measuredWidth="97" measuredHeight="28">
+    <font size="15px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="6" x="784" y="188" width="89" text="Đăng kí" measuredWidth="89" measuredHeight="28">
+    <font size="15px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="7" x="192" y="640" width="737" height="57" text="Footer" measuredWidth="737" measuredHeight="57">
+    <font size="13px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="8" x="896" y="188" width="41" height="28" measuredWidth="41" measuredHeight="28" icon="list-bullet (custom)"/>
+  <widgets xsi:type="model:Group" id="9" x="760" y="240" width="177" height="385" text="Quảng cáo" measuredWidth="177" measuredHeight="385">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="10" x="776" y="264" width="143" height="89" text="Quảng cáo " measuredWidth="143" measuredHeight="89">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="11" x="776" y="368" width="143" height="97" text="Quảng cáo " measuredWidth="143" measuredHeight="97">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="13" x="776" y="480" width="143" height="97" text="Quảng cáo " measuredWidth="143" measuredHeight="97">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="14" x="208" y="247" width="521" height="146" text="Công việc " measuredWidth="521" measuredHeight="146">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="15" x="218" y="264" width="335" text="Công ty TNHH Bà Nà" measuredWidth="335" measuredHeight="28">
+    <font size="15px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="16" x="219" y="285" measuredWidth="6" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="17" x="219" y="291" width="262" text="Cần tuyển nhân viên du lịch" measuredWidth="262" measuredHeight="25">
+    <font size="13px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="18" x="219" y="315" width="166" text="Địa chỉ: Đà Nẵng" measuredWidth="166" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="19" x="219" y="342" width="182" text="SĐT: 012345678" measuredWidth="182" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="20" x="336" y="342" width="273" text="Gmail: bana@gmail.com" measuredWidth="273" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="21" x="218" y="364" text="Xem chi tiết" measuredWidth="66" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="22" x="336" y="364" text="Ứng tuyển" measuredWidth="58" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="23" x="208" y="400" width="521" height="129" text="Công việc " measuredWidth="521" measuredHeight="129">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:LinkBar" id="25" x="419" y="592" text="1,2,...,10" measuredWidth="100" measuredHeight="23">
+    <font/>
+    <items x="0" y="0" width="9" height="23" text="1"/>
+    <items x="27" y="0" width="9" height="23" text="2"/>
+    <items x="54" y="0" width="12" height="23" text="..."/>
+    <items x="84" y="0" width="15" height="23" text="10"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

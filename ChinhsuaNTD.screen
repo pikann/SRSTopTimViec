@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="144" y="88" width="800" height="600" text="Browser&#xA;http://timkiemvieclam/quanlitaikhoan/chinhsua" locked="true" measuredWidth="800" measuredHeight="600">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="2" x="351" y="259" width="569" height="402" text="Chỉnh sửa thông tin cá nhân" locked="true" measuredWidth="569" measuredHeight="402">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="3" x="385" y="448" width="201" text="Tên công ty: " measuredWidth="201" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="4" x="385" y="560" text="Địa điểm:  " measuredWidth="62" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="5" x="167" y="159" width="753" height="75" measuredWidth="753" measuredHeight="75"/>
+  <widgets xsi:type="model:VButtonBar" id="6" x="168" y="263" width="153" height="170" text="Quản lí tài khoản&#xA;Đăng tin tuyển dụng&#xA;Tìm kiếm" measuredWidth="153" measuredHeight="170" selection="0">
+    <font/>
+    <items x="0" y="0" width="153" height="55" text="Quản lí tài khoản"/>
+    <items x="0" y="55" width="153" height="54" text="Đăng tin tuyển dụng"/>
+    <items x="0" y="109" width="153" height="61" text="Tìm kiếm"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="7" x="385" y="504" text="Số điện thoại:" measuredWidth="78" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="8" x="716" y="609" width="153" height="32" text="Chỉnh sửa " measuredWidth="153" measuredHeight="32">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="14" x="392" y="328" width="128" text="Ảnh đại diện: " measuredWidth="128" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="15" x="504" y="315" width="57" height="49" measuredWidth="57" measuredHeight="49" icon="image (large)"/>
+  <widgets xsi:type="model:Label" id="16" x="192" y="168" width="65" text="LOGO" measuredWidth="65" measuredHeight="58" textAlignment="Center" icon="home (large)" iconPosition="top">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="17" x="720" y="185" width="145" text="Xin chào, FPT" measuredWidth="145" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="18" x="816" y="176" width="49" height="41" measuredWidth="49" measuredHeight="41" icon="usergroup (custom)"/>
+  <widgets xsi:type="model:Button" id="20" x="488" y="370" width="89" height="36" text="Chọn file" measuredWidth="89" measuredHeight="36">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="21" x="490" y="448" width="141" text="FPT" measuredWidth="141" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="23" x="488" y="504" width="145" text="080551234" measuredWidth="145" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="26" x="490" y="560" width="141" text="Sơn Trà, Đà Nẵng" measuredWidth="141" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="27" x="472" y="608" width="89" height="33" text="Hủy" measuredWidth="89" measuredHeight="33">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
