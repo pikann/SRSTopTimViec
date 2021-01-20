@@ -24,7 +24,7 @@
     <font/>
   </widgets>
   <widgets xsi:type="model:Icon" id="13" x="740" y="495" measuredWidth="48" measuredHeight="48" icon="help (xlarge)"/>
-  <widgets xsi:type="model:Label" id="15" x="152" y="133" text="TimViecNhanh" measuredWidth="131" measuredHeight="33">
+  <widgets xsi:type="model:Label" id="15" x="152" y="133" text="TopTimViec" measuredWidth="105" measuredHeight="33">
     <font size="19px" bold="true"/>
   </widgets>
   <widgets xsi:type="model:Group" id="16" x="672" y="384" width="208" height="288" text="Quảng cáo" measuredWidth="208" measuredHeight="288">
