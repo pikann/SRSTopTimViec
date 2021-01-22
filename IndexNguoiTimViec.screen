@@ -66,7 +66,7 @@
     <font/>
   </widgets>
   <widgets xsi:type="model:Icon" id="28" x="855" y="134" measuredWidth="32" measuredHeight="32" icon="user (large)"/>
-  <widgets xsi:type="model:TextArea" id="34" x="768" y="172" text="Trang cá nhân&#xD;&#xA;Quản lý thông tin&#xD;&#xA;Thông tin ứng tuyển&#xD;&#xA;Đăng xuất" measuredWidth="117" measuredHeight="68">
+  <widgets xsi:type="model:TextArea" id="34" x="768" y="172" text="Trang cá nhân&#xD;&#xA;Quản lý tài khoản&#xD;&#xA;Thông tin ứng tuyển&#xD;&#xA;Đăng xuất" measuredWidth="117" measuredHeight="68">
     <font/>
   </widgets>
   <widgets xsi:type="model:WidgetGroup" id="42" x="768" y="133" measuredWidth="34" measuredHeight="34">

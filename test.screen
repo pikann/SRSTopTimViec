@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="118" x="98" y="72" width="800" height="600" text="Trang cá nhân&#xA;http://toptimviec.vn/user/123456789" measuredWidth="800" measuredHeight="600">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="120" x="112" y="134" measuredWidth="32" measuredHeight="32" icon="image (large)"/>
+  <widgets xsi:type="model:Label" id="126" x="152" y="133" text="TopTimViec" measuredWidth="105" measuredHeight="33">
+    <font size="19px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="131" x="100" y="167" width="796" measuredWidth="796" measuredHeight="6"/>
+  <widgets xsi:type="model:Label" id="132" x="320" y="136" text="Trang chủ" measuredWidth="75" measuredHeight="28">
+    <font size="15px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="133" x="400" y="136" text="Công việc" measuredWidth="71" measuredHeight="28">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="134" x="469" y="136" text="Công ty" measuredWidth="57" measuredHeight="28">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:Shape" id="142" x="854" y="133" width="34" height="34" measuredWidth="34" measuredHeight="34">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="143" x="855" y="134" measuredWidth="32" measuredHeight="32" icon="user (large)"/>
+  <widgets xsi:type="model:WidgetGroup" id="145" x="768" y="133" measuredWidth="34" measuredHeight="34">
+    <widgets xsi:type="model:Shape" id="146" width="34" height="34" measuredWidth="34" measuredHeight="34">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="147" x="4" y="5" width="25" height="25" measuredWidth="25" measuredHeight="25" icon="comments (custom)"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="148" x="682" y="135" height="29" text="Đăng tin" measuredWidth="65" measuredHeight="29" background="#ccc">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="149" x="810" y="133" measuredWidth="34" measuredHeight="34">
+    <widgets xsi:type="model:Shape" id="150" width="34" height="34" measuredWidth="34" measuredHeight="34">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="151" x="4" y="5" width="25" height="25" measuredWidth="25" measuredHeight="25" icon="bell (custom)"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="175" x="612" y="248" width="243" height="364" measuredWidth="243" measuredHeight="364"/>
+  <widgets xsi:type="model:Shape" id="176" x="684" y="199" measuredWidth="100" measuredHeight="100">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="177" x="691" y="216" width="85" height="81" measuredWidth="85" measuredHeight="81" icon="user (custom)"/>
+  <widgets xsi:type="model:HLine" id="178" x="638" y="323" width="179" measuredWidth="179" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="179" x="638" y="352" width="179" measuredWidth="179" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="180" x="638" y="387" width="179" measuredWidth="179" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="181" x="638" y="414" width="179" measuredWidth="179" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="182" x="638" y="447" width="179" measuredWidth="179" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="183" x="638" y="472" width="179" measuredWidth="179" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="184" x="638" y="508" width="179" measuredWidth="179" measuredHeight="6"/>
+  <widgets xsi:type="model:Button" id="185" x="714" y="559" text="Sửa" measuredWidth="39" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="186" x="143" y="248" width="450" height="424" measuredWidth="450" measuredHeight="424"/>
+  <widgets xsi:type="model:Group" id="187" x="167" y="281" width="401" height="85" text="Tin tuyển dụng 1" measuredWidth="401" measuredHeight="85">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="190" x="273" y="199" text="Tin tuyển dụng" measuredWidth="169" measuredHeight="39">
+    <font size="24px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="193" x="167" y="392" width="401" height="85" text="Tin tuyển dụng 1" measuredWidth="401" measuredHeight="85">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="194" x="167" y="508" width="401" height="85" text="Tin tuyển dụng 1" measuredWidth="401" measuredHeight="85">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="195" x="167" y="624" width="401" height="48" text="Tin tuyển dụng 1" measuredWidth="401" measuredHeight="48">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Browser" id="196" x="98" y="736" width="800" height="600" text="Trang cá nhân&#xA;http://toptimviec.vn/user/123456789" measuredWidth="800" measuredHeight="600">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="197" x="112" y="798" measuredWidth="32" measuredHeight="32" icon="image (large)"/>
+  <widgets xsi:type="model:Label" id="198" x="152" y="797" text="TopTimViec" measuredWidth="105" measuredHeight="33">
+    <font size="19px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="199" x="100" y="831" width="796" measuredWidth="796" measuredHeight="6"/>
+  <widgets xsi:type="model:Label" id="200" x="320" y="800" text="Trang chủ" measuredWidth="75" measuredHeight="28">
+    <font size="15px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="201" x="400" y="800" text="Công việc" measuredWidth="71" measuredHeight="28">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="202" x="469" y="800" text="Công ty" measuredWidth="57" measuredHeight="28">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:Shape" id="203" x="854" y="797" width="34" height="34" measuredWidth="34" measuredHeight="34">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="204" x="855" y="798" measuredWidth="32" measuredHeight="32" icon="user (large)"/>
+  <widgets xsi:type="model:WidgetGroup" id="205" x="768" y="797" measuredWidth="34" measuredHeight="34">
+    <widgets xsi:type="model:Shape" id="206" width="34" height="34" measuredWidth="34" measuredHeight="34">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="207" x="4" y="5" width="25" height="25" measuredWidth="25" measuredHeight="25" icon="comments (custom)"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="208" x="682" y="799" height="29" text="Đăng tin" measuredWidth="65" measuredHeight="29" background="#ccc">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="209" x="810" y="797" measuredWidth="34" measuredHeight="34">
+    <widgets xsi:type="model:Shape" id="210" width="34" height="34" measuredWidth="34" measuredHeight="34">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="211" x="4" y="5" width="25" height="25" measuredWidth="25" measuredHeight="25" icon="bell (custom)"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="212" x="612" y="912" width="243" height="364" measuredWidth="243" measuredHeight="364"/>
+  <widgets xsi:type="model:Shape" id="213" x="684" y="863" measuredWidth="100" measuredHeight="100">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="214" x="691" y="880" width="85" height="81" measuredWidth="85" measuredHeight="81" icon="user (custom)"/>
+  <widgets xsi:type="model:HLine" id="215" x="638" y="987" width="179" measuredWidth="179" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="216" x="638" y="1016" width="179" measuredWidth="179" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="217" x="638" y="1051" width="179" measuredWidth="179" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="218" x="638" y="1078" width="179" measuredWidth="179" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="219" x="638" y="1111" width="179" measuredWidth="179" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="220" x="638" y="1136" width="179" measuredWidth="179" measuredHeight="6"/>
+  <widgets xsi:type="model:HLine" id="221" x="638" y="1172" width="179" measuredWidth="179" measuredHeight="6"/>
+  <widgets xsi:type="model:Button" id="222" x="714" y="1223" text="Sửa" measuredWidth="39" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="223" x="143" y="912" width="450" height="424" measuredWidth="450" measuredHeight="424"/>
+  <widgets xsi:type="model:Group" id="224" x="167" y="945" width="401" height="85" text="Tin tuyển dụng 1" measuredWidth="401" measuredHeight="85">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="225" x="273" y="863" text="Tin tuyển dụng" measuredWidth="169" measuredHeight="39">
+    <font size="24px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="226" x="167" y="1056" width="401" height="85" text="Tin tuyển dụng 1" measuredWidth="401" measuredHeight="85">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="227" x="167" y="1172" width="401" height="85" text="Tin tuyển dụng 1" measuredWidth="401" measuredHeight="85">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Group" id="228" x="167" y="1288" width="401" height="48" text="Tin tuyển dụng 1" measuredWidth="401" measuredHeight="48">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="229" x="336" y="888" width="324" height="369" measuredWidth="324" measuredHeight="369"/>
+  <widgets xsi:type="model:Label" id="230" x="350" y="992" text="Tên công ty" measuredWidth="67" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="231" x="350" y="1035" text="Số điện thoại" measuredWidth="75" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="234" x="351" y="1075" text="Trụ sở chính" measuredWidth="70" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="235" x="351" y="1117" text="Mô tả" measuredWidth="37" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="236" x="432" y="992" width="207" text="Tên công ty" measuredWidth="207" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="237" x="432" y="1035" width="207" text="Số điện thoại" measuredWidth="207" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="238" x="432" y="1075" width="207" text="Trụ sở chính" measuredWidth="207" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="244" x="432" y="1118" width="207" height="77" text="Mô tả" measuredWidth="207" measuredHeight="77" verticalScrollbar="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="245" x="478" y="1216" text="Lưu" measuredWidth="40" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="246" x="352" y="953" text="Avatar" measuredWidth="40" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="247" x="432" y="953" width="151" text="Choose file" measuredWidth="151" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="248" x="582" y="952" text="Browse" measuredWidth="58" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="249" x="428" y="904" text="Thông tin hiển thị" measuredWidth="159" measuredHeight="33">
+    <font size="18px" bold="true"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
