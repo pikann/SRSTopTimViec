@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
-  <widgets xsi:type="model:Browser" id="1" x="-10" y="48" width="800" height="600" text="Browser&#xA;http://timvieclam.vn/admin/nguoitimviec/edit?id=1&#xA;" measuredWidth="800" measuredHeight="600">
+  <widgets xsi:type="model:Browser" id="1" x="-20" y="56" width="800" height="600" text="Browser&#xA;http://timvieclam.vn/admin/nguoitimviec/edit?id=1&#xA;" measuredWidth="800" measuredHeight="600">
     <font/>
   </widgets>
   <widgets xsi:type="model:Panel" id="6" y="106" width="780" height="63" measuredWidth="780" measuredHeight="63"/>
@@ -18,7 +18,7 @@
     <items x="0" y="82" width="167" height="28" text="Quản lý mật khẩu"/>
   </widgets>
   <widgets xsi:type="model:Panel" id="20" x="184" y="235" width="553" height="326" measuredWidth="553" measuredHeight="326"/>
-  <widgets xsi:type="model:Label" id="22" x="194" y="176" text="Chỉnh sửa Người tìm việc" measuredWidth="467" measuredHeight="60" icon="edit (large)">
+  <widgets xsi:type="model:Label" id="22" x="194" y="176" text="Chỉnh sửa Người tìm việc" measuredWidth="455" measuredHeight="59" icon="edit (large)">
     <font size="38px" bold="false" italic="true"/>
   </widgets>
   <widgets xsi:type="model:Label" id="23" x="208" y="256" text="Username(*)" measuredWidth="76" measuredHeight="23">
