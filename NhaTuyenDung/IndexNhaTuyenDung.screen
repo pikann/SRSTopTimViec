@@ -47,19 +47,18 @@
     <font size="15px"/>
   </widgets>
   <widgets xsi:type="model:HLine" id="19" x="100" y="369" width="796" measuredWidth="796" measuredHeight="6"/>
-  <widgets xsi:type="model:Panel" id="20" x="143" y="232" width="701" height="65" measuredWidth="701" measuredHeight="65" background="#ccc"/>
-  <widgets xsi:type="model:WidgetGroup" id="21" x="154" y="248" measuredWidth="677" measuredHeight="36">
-    <widgets xsi:type="model:SearchField" id="22" width="338" text="Tên ứng viên, công việc, vị trí..." measuredWidth="338" measuredHeight="36">
-      <font size="20px"/>
-    </widgets>
-    <widgets xsi:type="model:Combo" id="23" x="345" y="1" width="105" text="Địa điểm" measuredWidth="105" measuredHeight="33">
-      <font size="18px"/>
-    </widgets>
-    <widgets xsi:type="model:Combo" id="24" x="457" y="1" width="105" text="Lĩnh vực" measuredWidth="105" measuredHeight="33">
-      <font size="18px"/>
-    </widgets>
-    <widgets xsi:type="model:Button" id="25" x="589" width="88" height="36" text="Tìm kiếm" measuredWidth="88" measuredHeight="36">
-      <font size="18px"/>
+  <widgets xsi:type="model:WidgetGroup" id="40" x="143" y="232" measuredWidth="701" measuredHeight="65">
+    <widgets xsi:type="model:Panel" id="20" width="701" height="65" measuredWidth="701" measuredHeight="65" background="#ccc"/>
+    <widgets xsi:type="model:WidgetGroup" id="21" x="11" y="16" measuredWidth="677" measuredHeight="36">
+      <widgets xsi:type="model:SearchField" id="22" width="447" text="Tên ứng viên, công việc, vị trí..." measuredWidth="447" measuredHeight="36">
+        <font size="20px"/>
+      </widgets>
+      <widgets xsi:type="model:Combo" id="23" x="454" y="1" width="105" text="Địa điểm" measuredWidth="105" measuredHeight="33">
+        <font size="18px"/>
+      </widgets>
+      <widgets xsi:type="model:Button" id="25" x="589" width="88" height="36" text="Tìm kiếm" measuredWidth="88" measuredHeight="36">
+        <font size="18px"/>
+      </widgets>
     </widgets>
   </widgets>
   <widgets xsi:type="model:Shape" id="26" x="854" y="133" width="34" height="34" measuredWidth="34" measuredHeight="34">
