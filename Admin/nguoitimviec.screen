@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="-10" y="48" width="800" height="600" text="Browser&#xA;http://timvieclam.vn/admin/nguoitimviec&#xA;" measuredWidth="800" measuredHeight="600">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="6" y="106" width="780" height="63" measuredWidth="780" measuredHeight="63"/>
+  <widgets xsi:type="model:VButtonBar" id="11" y="310" width="167" height="155" text="Quản lý Nhà tuyển dụng&#xD;&#xA;Quản lý Người tìm việc&#xD;&#xA;Phê duyệt bài đăng&#xD;&#xA;Quản lý báo lỗi" measuredWidth="167" measuredHeight="155" selection="1">
+    <font/>
+    <items x="0" y="0" width="167" height="38" text="Quản lý Nhà tuyển dụng"/>
+    <items x="0" y="38" width="167" height="37" text="Quản lý Người tìm việc"/>
+    <items x="0" y="75" width="167" height="37" text="Phê duyệt bài đăng"/>
+    <items x="0" y="112" width="167" height="43" text="Quản lý báo lỗi"/>
+  </widgets>
+  <widgets xsi:type="model:SearchField" id="15" x="184" y="184" width="337" text="Search" measuredWidth="337" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="17" x="558" y="183" text="Tìm kiếm" measuredWidth="69" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="18" x="184" y="248" width="568" height="233" text="ID,Họ và tên, Số phone,Email,Công việc,Chức năng&#xA;1,Võ Hồng Nga,0905444333,hongnga@gmail.com,NV Marketing,[Khoá] [View]&#xA;2,Trần Thị Thu Công,0235123123,ttthucong@gmail.com,Giáo viên,[Khoá] [View]&#xA;3,Nguyễn Minh Hiếu,0892777666,nminhhieu@gmail.com,Lập trinh viên,[Khoá] [View]&#xA;4,Phạm Thị Thuỳ Dương,0867546786,ppthuyduong@gmail.com,Kế toán,[Khoá] [View]&#xA;5,Nguyễn Văn Đại,0765876475,nvandai@gmail.com,Kỹ sư điện,[Khoá] [View]&#xA;6,Trần Phước Phi,0876567551,tphuocphi@gmail.com,NV kinh doanh,[Khoá] [View]&#xA;7,Nguyễn Thị Phương Lịnh,0987675353,nphuonglinh@gmail.com,Giaos viên,[Khoá] [View]&#xA;8,Phạm Hoài Linh,0987462763,phoailinh@gmail.com,Đầu bếp,[Khoá] [View]&#xA;9,Phan Kiều Trinh,0457646865,pkieutrinh@gmail,Kỹ sư môi trường,[Khoá] [View]&#xA;10,Đặng Luân,0944789567,luandang@gmail.com,NV kinh doanh,[Khoá] [View]&#xA;&#xA;" measuredWidth="568" measuredHeight="233" alternative="#eee">
+    <font/>
+    <items x="502" y="24" width="27" height="15" text="Khoá"/>
+    <items x="532" y="24" width="25" height="15" text="View"/>
+    <items x="502" y="45" width="27" height="15" text="Khoá"/>
+    <items x="532" y="45" width="25" height="15" text="View"/>
+    <items x="502" y="66" width="27" height="15" text="Khoá"/>
+    <items x="532" y="66" width="25" height="15" text="View"/>
+    <items x="502" y="87" width="27" height="15" text="Khoá"/>
+    <items x="532" y="87" width="25" height="15" text="View"/>
+    <items x="502" y="108" width="27" height="15" text="Khoá"/>
+    <items x="532" y="108" width="25" height="15" text="View"/>
+    <items x="502" y="129" width="27" height="15" text="Khoá"/>
+    <items x="532" y="129" width="25" height="15" text="View"/>
+    <items x="502" y="150" width="27" height="15" text="Khoá"/>
+    <items x="532" y="150" width="25" height="15" text="View"/>
+    <items x="502" y="171" width="27" height="15" text="Khoá"/>
+    <items x="532" y="171" width="25" height="15" text="View"/>
+    <items x="502" y="192" width="27" height="15" text="Khoá"/>
+    <items x="532" y="192" width="25" height="15" text="View"/>
+    <items x="502" y="213" width="27" height="15" text="Khoá"/>
+    <items x="532" y="213" width="25" height="15" text="View"/>
+  </widgets>
+  <widgets xsi:type="model:LinkBar" id="19" x="331" y="552" text="&lt;&lt;,1,2,3,4,...,10,>>" measuredWidth="228" measuredHeight="23">
+    <font/>
+    <items x="0" y="0" width="19" height="23" text="&lt;&lt;"/>
+    <items x="37" y="0" width="9" height="23" text="1"/>
+    <items x="64" y="0" width="9" height="23" text="2"/>
+    <items x="91" y="0" width="9" height="23" text="3"/>
+    <items x="118" y="0" width="9" height="23" text="4"/>
+    <items x="145" y="0" width="12" height="23" text="..."/>
+    <items x="175" y="0" width="15" height="23" text="10"/>
+    <items x="208" y="0" width="19" height="23" text=">>"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="22" x="720" y="122" measuredWidth="32" measuredHeight="32" icon="user (large)"/>
+  <widgets xsi:type="model:Icon" id="23" x="32" y="122" measuredWidth="32" measuredHeight="32" icon="image (large)"/>
+  <widgets xsi:type="model:Browser" id="24" x="-10" y="720" width="800" height="600" text="Browser&#xA;http://timvieclam.vn/admin/nguoitimviec&#xA;" measuredWidth="800" measuredHeight="600">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="25" y="778" width="780" height="63" measuredWidth="780" measuredHeight="63"/>
+  <widgets xsi:type="model:VButtonBar" id="26" y="982" width="167" height="155" text="Quản lý Nhà tuyển dụng&#xD;&#xA;Quản lý Người tìm việc&#xD;&#xA;Phê duyệt bài đăng&#xD;&#xA;Quản lý báo lỗi" measuredWidth="167" measuredHeight="155" selection="1">
+    <font/>
+    <items x="0" y="0" width="167" height="38" text="Quản lý Nhà tuyển dụng"/>
+    <items x="0" y="38" width="167" height="37" text="Quản lý Người tìm việc"/>
+    <items x="0" y="75" width="167" height="37" text="Phê duyệt bài đăng"/>
+    <items x="0" y="112" width="167" height="43" text="Quản lý báo lỗi"/>
+  </widgets>
+  <widgets xsi:type="model:SearchField" id="27" x="184" y="856" width="337" text="Search" measuredWidth="337" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="28" x="558" y="855" text="Tìm kiếm" measuredWidth="69" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="29" x="184" y="920" width="568" height="233" text="ID,Họ và tên, Số phone,Email,Công việc,Chức năng&#xA;1,Võ Hồng Nga,0905444333,hongnga@gmail.com,NV Marketing,[Khoá] [View]&#xA;2,Trần Thị Thu Công,0235123123,ttthucong@gmail.com,Giáo viên,[Khoá] [View]&#xA;3,Nguyễn Minh Hiếu,0892777666,nminhhieu@gmail.com,Lập trinh viên,[Khoá] [View]&#xA;4,Phạm Thị Thuỳ Dương,0867546786,ppthuyduong@gmail.com,Kế toán,[Khoá] [View]&#xA;5,Nguyễn Văn Đại,0765876475,nvandai@gmail.com,Kỹ sư điện,[Khoá] [View]&#xA;6,Trần Phước Phi,0876567551,tphuocphi@gmail.com,NV kinh doanh,[Khoá] [View]&#xA;7,Nguyễn Thị Phương Lịnh,0987675353,nphuonglinh@gmail.com,Giaos viên,[Khoá] [View]&#xA;8,Phạm Hoài Linh,0987462763,phoailinh@gmail.com,Đầu bếp,[Khoá] [View]&#xA;9,Phan Kiều Trinh,0457646865,pkieutrinh@gmail,Kỹ sư môi trường,[Khoá] [View]&#xA;10,Đặng Luân,0944789567,luandang@gmail.com,NV kinh doanh,[Khoá] [View]&#xA;&#xA;" measuredWidth="568" measuredHeight="233" alternative="#eee">
+    <font/>
+    <items x="502" y="24" width="27" height="15" text="Khoá"/>
+    <items x="532" y="24" width="25" height="15" text="View"/>
+    <items x="502" y="45" width="27" height="15" text="Khoá"/>
+    <items x="532" y="45" width="25" height="15" text="View"/>
+    <items x="502" y="66" width="27" height="15" text="Khoá"/>
+    <items x="532" y="66" width="25" height="15" text="View"/>
+    <items x="502" y="87" width="27" height="15" text="Khoá"/>
+    <items x="532" y="87" width="25" height="15" text="View"/>
+    <items x="502" y="108" width="27" height="15" text="Khoá"/>
+    <items x="532" y="108" width="25" height="15" text="View"/>
+    <items x="502" y="129" width="27" height="15" text="Khoá"/>
+    <items x="532" y="129" width="25" height="15" text="View"/>
+    <items x="502" y="150" width="27" height="15" text="Khoá"/>
+    <items x="532" y="150" width="25" height="15" text="View"/>
+    <items x="502" y="171" width="27" height="15" text="Khoá"/>
+    <items x="532" y="171" width="25" height="15" text="View"/>
+    <items x="502" y="192" width="27" height="15" text="Khoá"/>
+    <items x="532" y="192" width="25" height="15" text="View"/>
+    <items x="502" y="213" width="27" height="15" text="Khoá"/>
+    <items x="532" y="213" width="25" height="15" text="View"/>
+  </widgets>
+  <widgets xsi:type="model:LinkBar" id="30" x="331" y="1224" text="&lt;&lt;,1,2,3,4,...,10,>>" measuredWidth="228" measuredHeight="23">
+    <font/>
+    <items x="0" y="0" width="19" height="23" text="&lt;&lt;"/>
+    <items x="37" y="0" width="9" height="23" text="1"/>
+    <items x="64" y="0" width="9" height="23" text="2"/>
+    <items x="91" y="0" width="9" height="23" text="3"/>
+    <items x="118" y="0" width="9" height="23" text="4"/>
+    <items x="145" y="0" width="12" height="23" text="..."/>
+    <items x="175" y="0" width="15" height="23" text="10"/>
+    <items x="208" y="0" width="19" height="23" text=">>"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="31" x="720" y="794" measuredWidth="32" measuredHeight="32" icon="user (large)"/>
+  <widgets xsi:type="model:Icon" id="32" x="32" y="794" measuredWidth="32" measuredHeight="32" icon="image (large)"/>
+  <widgets xsi:type="model:Panel" id="33" x="-10" y="840" width="800" height="480" measuredWidth="800" measuredHeight="480" background="#ccc" alpha="128"/>
+  <widgets xsi:type="model:Panel" id="53" x="184" y="960" width="568" height="326" measuredWidth="568" measuredHeight="326"/>
+  <widgets xsi:type="model:Label" id="54" x="215" y="981" text="Username:" measuredWidth="66" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="55" x="338" y="980" width="318" text="ngavo" measuredWidth="318" measuredHeight="25" borderColor="#fff">
+    <font size="13px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="56" x="215" y="1013" width="71" text="Fullname:" measuredWidth="71" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="57" x="338" y="1013" width="318" text="Võ Hồng Nga" measuredWidth="318" measuredHeight="25" borderColor="#fff">
+    <font size="13px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="58" x="215" y="1045" width="70" text="Ngày sinh:" measuredWidth="70" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="59" x="215" y="1078" text="Giới tính:" measuredWidth="57" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="60" x="214" y="1173" text="Công việc:" measuredWidth="63" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="61" x="338" y="1108" width="318" text="0337144377" measuredWidth="318" measuredHeight="25" borderColor="#fff">
+    <font size="13px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="62" x="214" y="1205" text="Khoá tài khoản (ngày):" measuredWidth="128" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="63" x="338" y="1172" width="318" text="Junior PHP" measuredWidth="318" measuredHeight="25" borderColor="#fff">
+    <font size="13px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="64" x="623" y="1251" width="89" text="OK" measuredWidth="89" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" id="65" x="338" y="1078" text="Nữ" measuredWidth="36" measuredHeight="23" selected="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" id="66" x="423" y="1078" text="Nam" measuredWidth="46" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="67" x="214" y="1109" text="Số phone:" measuredWidth="61" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="68" x="215" y="1141" text="Email:" measuredWidth="38" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="69" x="338" y="1140" width="318" text="hongngadut99@gmail.com" measuredWidth="318" measuredHeight="25" borderColor="#fff">
+    <font size="13px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="70" x="338" y="1044" width="122" text="06/05/1999" measuredWidth="122" measuredHeight="25" borderColor="#fff">
+    <font size="13px"/>
+  </widgets>
+  <widgets xsi:type="model:Spinner" id="71" x="343" y="1205" width="70" text="0" measuredWidth="70" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="72" x="720" y="960" measuredWidth="32" measuredHeight="32" icon="close (large)"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

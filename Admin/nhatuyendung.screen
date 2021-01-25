@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="-10" y="48" width="800" height="600" text="Browser&#xA;http://timvieclam.vn/admin/nhatuyendung&#xA;" measuredWidth="800" measuredHeight="600">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="6" x="-10" y="106" width="800" height="63" measuredWidth="800" measuredHeight="63"/>
+  <widgets xsi:type="model:TextField" id="7" x="600" y="126" measuredWidth="11" measuredHeight="23" borderColor="#fff">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:VButtonBar" id="11" y="310" width="167" height="155" text="Quản lý Nhà tuyển dụng&#xD;&#xA;Quản lý Người tìm việc&#xD;&#xA;Quản lý bài đăng&#xD;&#xA;Quản lý báo lỗi" measuredWidth="167" measuredHeight="155" selection="0">
+    <font/>
+    <items x="0" y="0" width="167" height="38" text="Quản lý Nhà tuyển dụng"/>
+    <items x="0" y="38" width="167" height="37" text="Quản lý Người tìm việc"/>
+    <items x="0" y="75" width="167" height="37" text="Quản lý bài đăng"/>
+    <items x="0" y="112" width="167" height="43" text="Quản lý báo lỗi"/>
+  </widgets>
+  <widgets xsi:type="model:SearchField" id="15" x="180" y="184" width="285" text="Search" measuredWidth="285" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="17" x="490" y="183" text="Tìm kiếm" measuredWidth="69" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="18" x="184" y="248" width="553" height="233" text="ID,Tên công ty, Số phone,Email,Chức năng&#xA;1,Công Ty TNHH Spin Master,0905444333,spin_master@gmail.com,[Khoá] [View]&#xA;2,EUROWINDOW HOLDING,0235123123,eurowindow@gmail.com,[Khoá] [View]&#xA;3,FUJINET SYSTEMS JSC,0892777666,fujinet_jsc@gmail.com,[Khoá] [View]&#xA;4,Công Ty TNHH Bizentro Việt Nam,0867546786,bizentro_vn@gmail.com,[Khoá] [View]&#xA;5,Công Ty Tài Chính Cổ Phần Điện Lực,0765876475,dienlucvietnam@gmail.com,[Khoá] [View]&#xA;6,Tập Đoàn Digital Novaon,0876567551,digital_novaon@gmail.com,[Khoá] [View]&#xA;7,Công Ty TNHH Việt Thành Việt Nam,0987675353,vietthanhvn@gmail.com,[Khoá] [View]&#xA;8,Meiko Electronics Thang Long Co,0987462763,meikothanglong@gmail.com,[Khoá] [View]&#xA;9,CÔNG TY TNHH LOTTE ENTERTAINMENT,0457646865,lottevietnam@gmail,[Khoá] [View]&#xA;10,THE BRITISH INTERNATIONAL SCHOOL,0944789567,hcmcschool@gmail.com,[Khoá] [View]&#xA;&#xA;" measuredWidth="553" measuredHeight="233" alternative="#eee">
+    <font/>
+    <items x="491" y="24" width="27" height="15" text="Khoá"/>
+    <items x="521" y="24" width="25" height="15" text="View"/>
+    <items x="491" y="45" width="27" height="15" text="Khoá"/>
+    <items x="521" y="45" width="25" height="15" text="View"/>
+    <items x="491" y="66" width="27" height="15" text="Khoá"/>
+    <items x="521" y="66" width="25" height="15" text="View"/>
+    <items x="491" y="87" width="27" height="15" text="Khoá"/>
+    <items x="521" y="87" width="25" height="15" text="View"/>
+    <items x="491" y="108" width="27" height="15" text="Khoá"/>
+    <items x="521" y="108" width="25" height="15" text="View"/>
+    <items x="491" y="129" width="27" height="15" text="Khoá"/>
+    <items x="521" y="129" width="25" height="15" text="View"/>
+    <items x="491" y="150" width="27" height="15" text="Khoá"/>
+    <items x="521" y="150" width="25" height="15" text="View"/>
+    <items x="491" y="171" width="27" height="15" text="Khoá"/>
+    <items x="521" y="171" width="25" height="15" text="View"/>
+    <items x="491" y="192" width="27" height="15" text="Khoá"/>
+    <items x="521" y="192" width="25" height="15" text="View"/>
+    <items x="491" y="213" width="27" height="15" text="Khoá"/>
+    <items x="521" y="213" width="25" height="15" text="View"/>
+  </widgets>
+  <widgets xsi:type="model:LinkBar" id="19" x="331" y="552" text="&lt;&lt;,1,2,3,4,...,10,>>" measuredWidth="228" measuredHeight="23">
+    <font/>
+    <items x="0" y="0" width="19" height="23" text="&lt;&lt;"/>
+    <items x="37" y="0" width="9" height="23" text="1"/>
+    <items x="64" y="0" width="9" height="23" text="2"/>
+    <items x="91" y="0" width="9" height="23" text="3"/>
+    <items x="118" y="0" width="9" height="23" text="4"/>
+    <items x="145" y="0" width="12" height="23" text="..."/>
+    <items x="175" y="0" width="15" height="23" text="10"/>
+    <items x="208" y="0" width="19" height="23" text=">>"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="20" x="723" y="125" measuredWidth="32" measuredHeight="32" icon="user (large)"/>
+  <widgets xsi:type="model:Icon" id="21" x="32" y="122" measuredWidth="32" measuredHeight="32" icon="image (large)"/>
+  <widgets xsi:type="model:Panel" id="22" x="-10" y="168" width="800" height="480" measuredWidth="800" measuredHeight="480" background="#ccc" alpha="96"/>
+  <widgets xsi:type="model:Panel" id="23" x="184" y="288" width="553" height="287" measuredWidth="553" measuredHeight="287"/>
+  <widgets xsi:type="model:Label" id="24" x="208" y="325" text="Tên công ty:" measuredWidth="73" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="25" x="331" y="324" width="318" text="Công Ty TNHH Spin Master" measuredWidth="318" measuredHeight="25" borderColor="#fff">
+    <font size="13px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="26" x="208" y="357" width="71" text="Số phone:" measuredWidth="71" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="27" x="208" y="422" text="Địa chỉ:" measuredWidth="46" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="28" x="207" y="455" text="Tỉnh thành" measuredWidth="65" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="30" x="207" y="389" text="Email:" measuredWidth="38" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="31" x="337" y="454" width="318" text="Đà Nẵng" measuredWidth="318" measuredHeight="25" borderColor="#fff">
+    <font size="13px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="32" x="331" y="356" width="82" text="0905444333" measuredWidth="82" measuredHeight="25" borderColor="#fff">
+    <font size="13px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="33" x="331" y="388" width="173" text="spin_master@gmail.com" measuredWidth="173" measuredHeight="25" borderColor="#fff">
+    <font size="13px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="34" x="331" y="421" width="152" text="54,Ngô Quyền, Đà Nẵng" measuredWidth="152" measuredHeight="25" borderColor="#fff">
+    <font size="13px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="35" x="200" y="488" text="  Hình ảnh" measuredWidth="61" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="36" x="344" y="484" measuredWidth="32" measuredHeight="32" icon="image (large)"/>
+  <widgets xsi:type="model:Icon" id="37" x="705" y="288" measuredWidth="32" measuredHeight="32" icon="close (large)"/>
+  <widgets xsi:type="model:Browser" id="38" x="7" y="656" width="800" height="600" text="Browser&#xA;http://timvieclam.vn/admin/nhatuyendung&#xA;" measuredWidth="800" measuredHeight="600">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="39" x="7" y="705" width="800" height="63" measuredWidth="800" measuredHeight="63"/>
+  <widgets xsi:type="model:TextField" id="40" x="617" y="725" measuredWidth="11" measuredHeight="23" borderColor="#fff">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:VButtonBar" id="41" x="17" y="909" width="167" height="155" text="Quản lý Nhà tuyển dụng&#xD;&#xA;Quản lý Người tìm việc&#xD;&#xA;Quản lý bài đăng&#xD;&#xA;Quản lý báo lỗi" measuredWidth="167" measuredHeight="155" selection="0">
+    <font/>
+    <items x="0" y="0" width="167" height="38" text="Quản lý Nhà tuyển dụng"/>
+    <items x="0" y="38" width="167" height="37" text="Quản lý Người tìm việc"/>
+    <items x="0" y="75" width="167" height="37" text="Quản lý bài đăng"/>
+    <items x="0" y="112" width="167" height="43" text="Quản lý báo lỗi"/>
+  </widgets>
+  <widgets xsi:type="model:SearchField" id="42" x="197" y="783" width="285" text="Search" measuredWidth="285" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="43" x="507" y="782" text="Tìm kiếm" measuredWidth="69" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="44" x="201" y="847" width="553" height="233" text="ID,Tên công ty, Số phone,Email,Chức năng&#xA;1,Công Ty TNHH Spin Master,0905444333,spin_master@gmail.com,[Khoá] [View]&#xA;2,EUROWINDOW HOLDING,0235123123,eurowindow@gmail.com,[Khoá] [View]&#xA;3,FUJINET SYSTEMS JSC,0892777666,fujinet_jsc@gmail.com,[Khoá] [View]&#xA;4,Công Ty TNHH Bizentro Việt Nam,0867546786,bizentro_vn@gmail.com,[Khoá] [View]&#xA;5,Công Ty Tài Chính Cổ Phần Điện Lực,0765876475,dienlucvietnam@gmail.com,[Khoá] [View]&#xA;6,Tập Đoàn Digital Novaon,0876567551,digital_novaon@gmail.com,[Khoá] [View]&#xA;7,Công Ty TNHH Việt Thành Việt Nam,0987675353,vietthanhvn@gmail.com,[Khoá] [View]&#xA;8,Meiko Electronics Thang Long Co,0987462763,meikothanglong@gmail.com,[Khoá] [View]&#xA;9,CÔNG TY TNHH LOTTE ENTERTAINMENT,0457646865,lottevietnam@gmail,[Khoá] [View]&#xA;10,THE BRITISH INTERNATIONAL SCHOOL,0944789567,hcmcschool@gmail.com,[Khoá] [View]&#xA;&#xA;" measuredWidth="553" measuredHeight="233" alternative="#eee">
+    <font/>
+    <items x="491" y="24" width="27" height="15" text="Khoá"/>
+    <items x="521" y="24" width="25" height="15" text="View"/>
+    <items x="491" y="45" width="27" height="15" text="Khoá"/>
+    <items x="521" y="45" width="25" height="15" text="View"/>
+    <items x="491" y="66" width="27" height="15" text="Khoá"/>
+    <items x="521" y="66" width="25" height="15" text="View"/>
+    <items x="491" y="87" width="27" height="15" text="Khoá"/>
+    <items x="521" y="87" width="25" height="15" text="View"/>
+    <items x="491" y="108" width="27" height="15" text="Khoá"/>
+    <items x="521" y="108" width="25" height="15" text="View"/>
+    <items x="491" y="129" width="27" height="15" text="Khoá"/>
+    <items x="521" y="129" width="25" height="15" text="View"/>
+    <items x="491" y="150" width="27" height="15" text="Khoá"/>
+    <items x="521" y="150" width="25" height="15" text="View"/>
+    <items x="491" y="171" width="27" height="15" text="Khoá"/>
+    <items x="521" y="171" width="25" height="15" text="View"/>
+    <items x="491" y="192" width="27" height="15" text="Khoá"/>
+    <items x="521" y="192" width="25" height="15" text="View"/>
+    <items x="491" y="213" width="27" height="15" text="Khoá"/>
+    <items x="521" y="213" width="25" height="15" text="View"/>
+  </widgets>
+  <widgets xsi:type="model:LinkBar" id="45" x="348" y="1151" text="&lt;&lt;,1,2,3,4,...,10,>>" measuredWidth="228" measuredHeight="23">
+    <font/>
+    <items x="0" y="0" width="19" height="23" text="&lt;&lt;"/>
+    <items x="37" y="0" width="9" height="23" text="1"/>
+    <items x="64" y="0" width="9" height="23" text="2"/>
+    <items x="91" y="0" width="9" height="23" text="3"/>
+    <items x="118" y="0" width="9" height="23" text="4"/>
+    <items x="145" y="0" width="12" height="23" text="..."/>
+    <items x="175" y="0" width="15" height="23" text="10"/>
+    <items x="208" y="0" width="19" height="23" text=">>"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="46" x="740" y="724" measuredWidth="32" measuredHeight="32" icon="user (large)"/>
+  <widgets xsi:type="model:Icon" id="47" x="49" y="721" measuredWidth="32" measuredHeight="32" icon="image (large)"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
