@@ -78,7 +78,10 @@
     <widgets xsi:type="model:Label" id="51" x="122" y="112" text="0123456789" measuredWidth="96" measuredHeight="28">
       <font size="15px" bold="true"/>
     </widgets>
-    <widgets xsi:type="model:Button" id="52" x="111" y="288" width="59" text="Liên hệ" measuredWidth="59" measuredHeight="30">
+    <widgets xsi:type="model:Button" id="52" x="162" y="288" width="64" text="Liên hệ" measuredWidth="64" measuredHeight="30">
+      <font size="15px"/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="69" x="63" y="288" width="65" text="Báo cáo" measuredWidth="65" measuredHeight="30">
       <font size="15px"/>
     </widgets>
   </widgets>
