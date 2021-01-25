@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="8" x="72" y="10" width="800" height="600" text="&#xA;http://timkiemvieclam.vn/login/" measuredWidth="800" measuredHeight="600">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="17" x="192" y="152" width="585" height="281" measuredWidth="585" measuredHeight="281"/>
+  <widgets xsi:type="model:Label" id="18" x="224" y="162" width="287" text="Xác nhận thông tin tài khoản !" measuredWidth="287" measuredHeight="36">
+    <font size="20px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="19" x="220" y="197" width="529" measuredWidth="529" measuredHeight="6"/>
+  <widgets xsi:type="model:Label" id="20" x="224" y="224" width="521" text="Vui lòng nhập e-mail của bạn để xác nhận thông tin tài khoản." measuredWidth="521" measuredHeight="33" foreground="#f00">
+    <font size="18px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="21" x="220" y="272" width="525" text="Nhập địa chỉ e-mail" measuredWidth="525" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="22" x="560" y="360" text="Xác nhận" measuredWidth="92" measuredHeight="33">
+    <font size="17px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="23" x="672" y="360" width="73" height="33" text="Hủy" measuredWidth="73" measuredHeight="33">
+    <font size="17px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Browser" id="24" x="72" y="656" width="800" height="600" text="&#xA;http://timkiemvieclam.vn/login/" measuredWidth="800" measuredHeight="600">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="34" x="147" y="840" width="649" height="137" measuredWidth="649" measuredHeight="137"/>
+  <widgets xsi:type="model:Label" id="35" x="174" y="864" width="617" text="Vui lòng đăng nhập vào e-mail để xác nhận tài khoản và đổi mật khẩu !" measuredWidth="617" measuredHeight="31">
+    <font size="17px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="37" x="672" y="928" width="77" height="33" text="OK" measuredWidth="77" measuredHeight="33">
+    <font size="17px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Browser" id="38" x="72" y="1264" width="800" height="600" text="&#xA;http://timkiemvieclam.vn/login" measuredWidth="800" measuredHeight="600">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="39" x="280" y="1342" width="401" height="480" measuredWidth="401" measuredHeight="480"/>
+  <widgets xsi:type="model:Icon" id="41" x="386" y="1366" width="187" height="185" measuredWidth="187" measuredHeight="185" icon="image (large)"/>
+  <widgets xsi:type="model:TextField" id="42" x="359" y="1568" width="241" text="Nhập mật khẩu mới" measuredWidth="241" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="43" x="359" y="1616" width="241" text="Xác nhận mật khẩu mới" measuredWidth="241" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="45" x="376" y="1672" width="89" text="Xác nhận" measuredWidth="89" measuredHeight="27">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="47" x="496" y="1672" width="77" text="Hủy" measuredWidth="77" measuredHeight="27">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="14px"/>
+</model:Screen>
