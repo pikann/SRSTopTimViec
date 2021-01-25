@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="16" x="98" y="72" width="800" height="600" text="Liên hệ ứng viên&#xA;http://toptimviec.vn/" measuredWidth="800" measuredHeight="600">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="1" x="112" y="134" measuredWidth="32" measuredHeight="32" icon="image (large)"/>
+  <widgets xsi:type="model:Label" id="2" x="152" y="133" text="TopTimViec" measuredWidth="105" measuredHeight="33">
+    <font size="19px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="3" x="100" y="167" width="796" measuredWidth="796" measuredHeight="6"/>
+  <widgets xsi:type="model:Label" id="4" x="320" y="136" text="Trang chủ" measuredWidth="70" measuredHeight="28">
+    <font size="15px" bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="5" x="400" y="136" text="Công việc" measuredWidth="71" measuredHeight="28">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="6" x="469" y="136" text="Công ty" measuredWidth="57" measuredHeight="28">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:Shape" id="7" x="854" y="133" width="34" height="34" measuredWidth="34" measuredHeight="34">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="8" x="855" y="134" measuredWidth="32" measuredHeight="32" icon="user (large)"/>
+  <widgets xsi:type="model:WidgetGroup" id="9" x="768" y="133" measuredWidth="34" measuredHeight="34">
+    <widgets xsi:type="model:Shape" id="10" width="34" height="34" measuredWidth="34" measuredHeight="34">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="11" x="4" y="5" width="25" height="25" measuredWidth="25" measuredHeight="25" icon="comments (custom)"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="12" x="682" y="135" height="29" text="Đăng tin" measuredWidth="65" measuredHeight="29" background="#ccc">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="13" x="810" y="133" measuredWidth="34" measuredHeight="34">
+    <widgets xsi:type="model:Shape" id="14" width="34" height="34" measuredWidth="34" measuredHeight="34">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="15" x="4" y="5" width="25" height="25" measuredWidth="25" measuredHeight="25" icon="bell (custom)"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="17" x="406" y="192" text="Liên hệ ứng viên" measuredWidth="183" measuredHeight="39">
+    <font size="24px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="18" x="140" y="240" width="716" height="409" measuredWidth="716" measuredHeight="409"/>
+  <widgets xsi:type="model:Panel" id="19" x="168" y="288" width="296" height="49" measuredWidth="296" measuredHeight="49"/>
+  <widgets xsi:type="model:Label" id="20" x="203" y="256" text="Danh sách ứng viên muốn liên hệ" measuredWidth="225" measuredHeight="28">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="21" x="178" y="298" width="135" text="Đã chọn" measuredWidth="135" measuredHeight="28">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="22" x="358" y="298" text="Chọn tất cả" measuredWidth="96" measuredHeight="28">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="65" x="168" y="344" width="296" height="280" measuredWidth="296" measuredHeight="280" verticalScrollbar="true"/>
+  <widgets xsi:type="model:WidgetGroup" id="31" x="176" y="353" width="265" measuredWidth="265" measuredHeight="37">
+    <widgets xsi:type="model:Panel" id="24" width="265" height="37" measuredWidth="265" measuredHeight="37"/>
+    <widgets xsi:type="model:WidgetGroup" id="27" x="9" y="5" width="25" measuredWidth="25" measuredHeight="27">
+      <widgets xsi:type="model:Shape" id="26" width="25" height="27" measuredWidth="25" measuredHeight="27">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Icon" id="25" x="4" y="3" width="15" height="21" measuredWidth="15" measuredHeight="21" icon="user (large)"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="28" x="45" y="5" width="73" text="Ứng viên 1" measuredWidth="73" measuredHeight="28">
+      <font size="15px"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="29" x="218" y="10" width="15" height="17" measuredWidth="15" measuredHeight="17" icon="trash (large)"/>
+    <widgets xsi:type="model:Checkbox" id="30" x="237" y="7" measuredWidth="21" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="66" x="176" y="400" width="265" measuredWidth="265" measuredHeight="37">
+    <widgets xsi:type="model:Panel" id="67" width="265" height="37" measuredWidth="265" measuredHeight="37"/>
+    <widgets xsi:type="model:WidgetGroup" id="68" x="9" y="5" width="25" measuredWidth="25" measuredHeight="27">
+      <widgets xsi:type="model:Shape" id="69" width="25" height="27" measuredWidth="25" measuredHeight="27">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Icon" id="70" x="4" y="3" width="15" height="21" measuredWidth="15" measuredHeight="21" icon="user (large)"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="71" x="45" y="5" width="73" text="Ứng viên 1" measuredWidth="73" measuredHeight="28">
+      <font size="15px"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="72" x="218" y="10" width="15" height="17" measuredWidth="15" measuredHeight="17" icon="trash (large)"/>
+    <widgets xsi:type="model:Checkbox" id="73" x="237" y="7" measuredWidth="21" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="74" x="176" y="448" width="265" measuredWidth="265" measuredHeight="37">
+    <widgets xsi:type="model:Panel" id="75" width="265" height="37" measuredWidth="265" measuredHeight="37"/>
+    <widgets xsi:type="model:WidgetGroup" id="76" x="9" y="5" width="25" measuredWidth="25" measuredHeight="27">
+      <widgets xsi:type="model:Shape" id="77" width="25" height="27" measuredWidth="25" measuredHeight="27">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Icon" id="78" x="4" y="3" width="15" height="21" measuredWidth="15" measuredHeight="21" icon="user (large)"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="79" x="45" y="5" width="73" text="Ứng viên 1" measuredWidth="73" measuredHeight="28">
+      <font size="15px"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="80" x="218" y="10" width="15" height="17" measuredWidth="15" measuredHeight="17" icon="trash (large)"/>
+    <widgets xsi:type="model:Checkbox" id="81" x="237" y="7" measuredWidth="21" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="82" x="176" y="496" width="265" measuredWidth="265" measuredHeight="37">
+    <widgets xsi:type="model:Panel" id="83" width="265" height="37" measuredWidth="265" measuredHeight="37"/>
+    <widgets xsi:type="model:WidgetGroup" id="84" x="9" y="5" width="25" measuredWidth="25" measuredHeight="27">
+      <widgets xsi:type="model:Shape" id="85" width="25" height="27" measuredWidth="25" measuredHeight="27">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Icon" id="86" x="4" y="3" width="15" height="21" measuredWidth="15" measuredHeight="21" icon="user (large)"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="87" x="45" y="5" width="73" text="Ứng viên 1" measuredWidth="73" measuredHeight="28">
+      <font size="15px"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="88" x="218" y="10" width="15" height="17" measuredWidth="15" measuredHeight="17" icon="trash (large)"/>
+    <widgets xsi:type="model:Checkbox" id="89" x="237" y="7" measuredWidth="21" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="90" x="176" y="544" width="265" measuredWidth="265" measuredHeight="37">
+    <widgets xsi:type="model:Panel" id="91" width="265" height="37" measuredWidth="265" measuredHeight="37"/>
+    <widgets xsi:type="model:WidgetGroup" id="92" x="9" y="5" width="25" measuredWidth="25" measuredHeight="27">
+      <widgets xsi:type="model:Shape" id="93" width="25" height="27" measuredWidth="25" measuredHeight="27">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Icon" id="94" x="4" y="3" width="15" height="21" measuredWidth="15" measuredHeight="21" icon="user (large)"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="95" x="45" y="5" width="73" text="Ứng viên 1" measuredWidth="73" measuredHeight="28">
+      <font size="15px"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="96" x="218" y="10" width="15" height="17" measuredWidth="15" measuredHeight="17" icon="trash (large)"/>
+    <widgets xsi:type="model:Checkbox" id="97" x="237" y="7" measuredWidth="21" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="98" x="176" y="587" width="265" measuredWidth="265" measuredHeight="37">
+    <widgets xsi:type="model:Panel" id="99" width="265" height="37" measuredWidth="265" measuredHeight="37"/>
+    <widgets xsi:type="model:WidgetGroup" id="100" x="9" y="5" width="25" measuredWidth="25" measuredHeight="27">
+      <widgets xsi:type="model:Shape" id="101" width="25" height="27" measuredWidth="25" measuredHeight="27">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Icon" id="102" x="4" y="3" width="15" height="21" measuredWidth="15" measuredHeight="21" icon="user (large)"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="103" x="45" y="5" width="73" text="Ứng viên 1" measuredWidth="73" measuredHeight="28">
+      <font size="15px"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="104" x="218" y="10" width="15" height="17" measuredWidth="15" measuredHeight="17" icon="trash (large)"/>
+    <widgets xsi:type="model:Checkbox" id="105" x="237" y="7" measuredWidth="21" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Label" id="106" x="602" y="256" text="Nội dung thư" measuredWidth="94" measuredHeight="28">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="107" x="504" y="299" text="Tiêu đề" measuredWidth="55" measuredHeight="28">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="108" x="568" y="299" width="265" text="Tiêu đề" measuredWidth="265" measuredHeight="28">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="109" x="504" y="336" text="Nội dung" measuredWidth="68" measuredHeight="28">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="110" x="504" y="371" width="329" height="190" text="Nội dung" measuredWidth="329" measuredHeight="190" verticalScrollbar="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="111" x="504" y="570" width="16" height="16" measuredWidth="16" measuredHeight="16" icon="attachment (large)"/>
+  <widgets xsi:type="model:Label" id="112" x="525" y="566" text="Đính kèm..." measuredWidth="66" measuredHeight="23">
+    <font size="12px"/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="114" x="724" y="566" text="Gửi qua tin nhắn" measuredWidth="109" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="115" x="776" y="599" width="57" text="Gửi" measuredWidth="57" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:List" id="116" x="620" y="565" text="[x] Gửi qua mail" measuredWidth="97" measuredHeight="26" border="false" alpha="0">
+    <font/>
+    <items x="0" y="2" width="97" height="22" text="[x] Gửi qua mail"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
