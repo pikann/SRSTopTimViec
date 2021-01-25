@@ -78,7 +78,7 @@
     <widgets xsi:type="model:Label" id="51" x="122" y="112" text="0123456789" measuredWidth="96" measuredHeight="28">
       <font size="15px" bold="true"/>
     </widgets>
-    <widgets xsi:type="model:Button" id="52" x="162" y="288" width="64" text="Liên hệ" measuredWidth="64" measuredHeight="30">
+    <widgets xsi:type="model:Button" id="52" x="154" y="288" width="64" text="Liên hệ" measuredWidth="64" measuredHeight="30">
       <font size="15px"/>
     </widgets>
     <widgets xsi:type="model:Button" id="69" x="63" y="288" width="65" text="Báo cáo" measuredWidth="65" measuredHeight="30">
@@ -106,6 +106,17 @@
       <font size="39px" bold="true"/>
     </widgets>
     <widgets xsi:type="model:Icon" id="68" x="11" y="11" measuredWidth="32" measuredHeight="32" icon="email (large)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="79" x="578" y="203" measuredWidth="103" measuredHeight="34">
+    <widgets xsi:type="model:WidgetGroup" id="75" measuredWidth="34" measuredHeight="34">
+      <widgets xsi:type="model:Shape" id="76" width="34" height="34" measuredWidth="34" measuredHeight="34">
+        <font/>
+      </widgets>
+      <widgets xsi:type="model:Icon" id="77" x="1" y="1" measuredWidth="32" measuredHeight="32" icon="user (large)"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="78" x="46" y="3" text="Công ty" measuredWidth="57" measuredHeight="28">
+      <font size="15px"/>
+    </widgets>
   </widgets>
   <hRuler/>
   <vRuler/>
