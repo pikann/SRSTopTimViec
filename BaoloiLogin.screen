@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="8" x="72" y="10" width="800" height="600" text="&#xA;http://timkiemvieclam.vn/login" measuredWidth="800" measuredHeight="600">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="16" x="280" y="88" width="401" height="480" measuredWidth="401" measuredHeight="480"/>
+  <widgets xsi:type="model:Link" id="14" x="435" y="504" text="Quên mật khẩu" measuredWidth="91" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="9" x="386" y="112" width="187" height="185" measuredWidth="187" measuredHeight="185" icon="image (large)"/>
+  <widgets xsi:type="model:TextField" id="10" x="359" y="314" width="241" text="E-mail" measuredWidth="241" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="11" x="359" y="362" width="241" text="Password" measuredWidth="241" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="12" x="428" y="464" width="103" text="Đăng ký" measuredWidth="103" measuredHeight="27">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="13" x="428" y="424" width="103" text="Đăng nhập" measuredWidth="103" measuredHeight="27">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="27" x="359" y="386" width="241" text="*E-mail hoặc Password không đúng" measuredWidth="241" measuredHeight="25" foreground="#f00">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Browser" id="46" x="80" y="664" width="800" height="600" text="&#xA;http://timkiemvieclam.vn/login" measuredWidth="800" measuredHeight="600">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="47" x="288" y="742" width="401" height="480" measuredWidth="401" measuredHeight="480"/>
+  <widgets xsi:type="model:Link" id="48" x="443" y="1158" text="Quên mật khẩu" measuredWidth="91" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="49" x="394" y="766" width="187" height="185" measuredWidth="187" measuredHeight="185" icon="image (large)"/>
+  <widgets xsi:type="model:TextField" id="50" x="367" y="968" width="241" text="E-mail" measuredWidth="241" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="51" x="367" y="1016" width="241" text="Password" measuredWidth="241" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="52" x="436" y="1118" width="103" text="Đăng ký" measuredWidth="103" measuredHeight="27">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="53" x="436" y="1078" width="103" text="Đăng nhập" measuredWidth="103" measuredHeight="27">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="54" x="367" y="1040" width="241" text="Có lỗi trong quá trình kết nối !" measuredWidth="241" measuredHeight="25" foreground="#f00">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="14px"/>
+</model:Screen>
