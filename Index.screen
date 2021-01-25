@@ -53,19 +53,27 @@
     <font size="15px"/>
   </widgets>
   <widgets xsi:type="model:HLine" id="37" x="100" y="369" width="796" measuredWidth="796" measuredHeight="6"/>
-  <widgets xsi:type="model:Panel" id="40" x="143" y="232" width="701" height="65" measuredWidth="701" measuredHeight="65" background="#ccc"/>
-  <widgets xsi:type="model:WidgetGroup" id="36" x="154" y="248" measuredWidth="677" measuredHeight="36">
-    <widgets xsi:type="model:SearchField" id="4" width="338" text="Tên công việc, vị trí..." measuredWidth="338" measuredHeight="36">
-      <font size="20px"/>
+  <widgets xsi:type="model:WidgetGroup" id="41" x="143" y="232" measuredWidth="701" measuredHeight="74">
+    <widgets xsi:type="model:Panel" id="42" width="701" height="74" measuredWidth="701" measuredHeight="74" background="#ccc"/>
+    <widgets xsi:type="model:WidgetGroup" id="43" x="11" y="16" measuredWidth="677" measuredHeight="36">
+      <widgets xsi:type="model:SearchField" id="44" width="447" text="Tên công việc, vị trí..." measuredWidth="447" measuredHeight="36">
+        <font size="20px"/>
+      </widgets>
+      <widgets xsi:type="model:Combo" id="45" x="454" y="1" width="105" text="Địa điểm" measuredWidth="105" measuredHeight="33">
+        <font size="18px"/>
+      </widgets>
+      <widgets xsi:type="model:Button" id="46" x="589" width="88" height="36" text="Tìm kiếm" measuredWidth="88" measuredHeight="36">
+        <font size="18px"/>
+      </widgets>
     </widgets>
-    <widgets xsi:type="model:Combo" id="32" x="345" y="1" width="105" text="Địa điểm" measuredWidth="105" measuredHeight="33">
-      <font size="18px"/>
+    <widgets xsi:type="model:Label" id="47" x="23" y="51" text="Ngôn ngữ 1" measuredWidth="69" measuredHeight="23">
+      <font/>
     </widgets>
-    <widgets xsi:type="model:Combo" id="33" x="457" y="1" width="105" text="Lĩnh vực" measuredWidth="105" measuredHeight="33">
-      <font size="18px"/>
+    <widgets xsi:type="model:Label" id="48" x="93" y="51" text="Ngôn ngữ 1" measuredWidth="69" measuredHeight="23">
+      <font/>
     </widgets>
-    <widgets xsi:type="model:Button" id="35" x="589" width="88" height="36" text="Tìm kiếm" measuredWidth="88" measuredHeight="36">
-      <font size="18px"/>
+    <widgets xsi:type="model:Label" id="49" x="161" y="51" text="Ngôn ngữ 1" measuredWidth="69" measuredHeight="23">
+      <font/>
     </widgets>
   </widgets>
   <hRuler/>
