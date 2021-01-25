@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
-  <widgets xsi:type="model:Browser" id="1" width="800" height="600" text="&#xA;http://timkiemvieclam.vn/signup" measuredWidth="800" measuredHeight="600">
+  <widgets xsi:type="model:Browser" id="1" width="800" height="605" text="Đăng ký&#xA;http://toptimviec.vn/signup" measuredWidth="800" measuredHeight="605">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Icon" id="16" x="882" y="10" measuredWidth="32" measuredHeight="32" icon="image (large)"/>
   <widgets xsi:type="model:Icon" id="17" x="150" y="184" width="185" height="185" measuredWidth="185" measuredHeight="185" icon="user (xlarge)"/>
   <widgets xsi:type="model:Icon" id="18" x="465" y="184" width="185" height="185" measuredWidth="185" measuredHeight="185" icon="usergroup (large)"/>
   <widgets xsi:type="model:Button" id="20" x="150" y="416" width="185" height="57" text="Đăng ký Người tìm việc" measuredWidth="185" measuredHeight="57">

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:WidgetGroup" id="79" height="700" measuredWidth="800" measuredHeight="700">
+    <widgets xsi:type="model:Browser" id="80" width="800" height="700" text="Đăng ký Người tìm việc&#xA;http://toptimviec.vn/signup/nguoitimviec" measuredWidth="800" measuredHeight="700">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="81" x="2" y="56" measuredWidth="796" measuredHeight="40">
+    <widgets xsi:type="model:Button" id="82" x="637" height="33" text="Đăng nhập" measuredWidth="78" measuredHeight="33">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="83" x="723" width="65" height="33" text="Đăng ký" measuredWidth="65" measuredHeight="33" background="#ccc">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="84" x="12" y="1" measuredWidth="32" measuredHeight="32" icon="image (large)"/>
+    <widgets xsi:type="model:Label" id="85" x="52" text="TopTimViec" measuredWidth="105" measuredHeight="33">
+      <font size="19px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:HLine" id="86" y="34" width="796" measuredWidth="796" measuredHeight="6"/>
+    <widgets xsi:type="model:Label" id="87" x="220" y="3" text="Trang chủ" measuredWidth="75" measuredHeight="28">
+      <font size="15px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="88" x="300" y="3" text="Mẫu CV" measuredWidth="57" measuredHeight="28">
+      <font size="15px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="89" x="364" y="3" text="Công ty" measuredWidth="57" measuredHeight="28">
+      <font size="15px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Label" id="90" x="239" y="120" width="369" text="Đăng ký tài khoản" measuredWidth="369" measuredHeight="53" textAlignment="Center">
+    <font size="32px"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="91" x="140" y="208" measuredWidth="568" measuredHeight="336">
+    <widgets xsi:type="model:Label" id="92" text="Họ và Tên(*)" measuredWidth="123" measuredHeight="36">
+      <font size="20px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="93" y="240" text="Mật khẩu(*)" measuredWidth="119" measuredHeight="36">
+      <font size="20px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="94" y="300" text="Xác nhận mật khẩu(*)" measuredWidth="211" measuredHeight="36">
+      <font size="20px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:TextField" id="95" x="250" width="318" measuredWidth="318" measuredHeight="36">
+      <font size="20px"/>
+    </widgets>
+    <widgets xsi:type="model:TextField" id="96" x="250" y="60" width="318" measuredWidth="318" measuredHeight="36">
+      <font size="20px"/>
+    </widgets>
+    <widgets xsi:type="model:TextField" id="97" x="250" y="300" width="318" measuredWidth="318" measuredHeight="36">
+      <font size="20px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="98" y="60" text="Email(*)" measuredWidth="81" measuredHeight="36">
+      <font size="20px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="99" y="120" text="Giới tính" measuredWidth="89" measuredHeight="36">
+      <font size="20px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:TextField" id="100" x="250" y="240" width="318" measuredWidth="318" measuredHeight="36">
+      <font size="20px"/>
+    </widgets>
+    <widgets xsi:type="model:RadioButton" id="101" x="250" y="126" text="Nam" measuredWidth="62" measuredHeight="36" selected="true">
+      <font size="20px"/>
+    </widgets>
+    <widgets xsi:type="model:RadioButton" id="102" x="396" y="126" text="Nữ" measuredWidth="47" measuredHeight="36">
+      <font size="20px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="103" y="180" text="Ngày sinh" measuredWidth="101" measuredHeight="36">
+      <font size="20px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:DateField" id="104" x="250" y="186" width="318" text=" 01/01/1999  " measuredWidth="318" measuredHeight="23"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="105" x="363" y="592" text="Đăng Ký" measuredWidth="122" measuredHeight="38" icon="edit (medium)">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="106" y="770" measuredWidth="800" measuredHeight="700">
+    <widgets xsi:type="model:Browser" id="107" width="800" height="700" text="Đăng ký Người tìm việc&#xA;http://toptimviec.vn/signup/nguoitimviec" measuredWidth="800" measuredHeight="700">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="108" x="2" y="826" measuredWidth="796" measuredHeight="40">
+    <widgets xsi:type="model:Button" id="109" x="637" height="33" text="Đăng nhập" measuredWidth="78" measuredHeight="33">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Button" id="110" x="723" width="65" height="33" text="Đăng ký" measuredWidth="65" measuredHeight="33" background="#ccc">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="111" x="12" y="1" measuredWidth="32" measuredHeight="32" icon="image (large)"/>
+    <widgets xsi:type="model:Label" id="112" x="52" text="TopTimViec" measuredWidth="105" measuredHeight="33">
+      <font size="19px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:HLine" id="113" y="34" width="796" measuredWidth="796" measuredHeight="6"/>
+    <widgets xsi:type="model:Label" id="114" x="220" y="3" text="Trang chủ" measuredWidth="75" measuredHeight="28">
+      <font size="15px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="115" x="300" y="3" text="Mẫu CV" measuredWidth="57" measuredHeight="28">
+      <font size="15px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="116" x="364" y="3" text="Công ty" measuredWidth="57" measuredHeight="28">
+      <font size="15px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Label" id="117" x="239" y="890" width="369" text="Đăng ký tài khoản" measuredWidth="369" measuredHeight="53" textAlignment="Center">
+    <font size="32px"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="118" x="140" y="978" measuredWidth="568" measuredHeight="336">
+    <widgets xsi:type="model:Label" id="119" text="Họ và Tên(*)" measuredWidth="123" measuredHeight="36">
+      <font size="20px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="120" y="240" text="Mật khẩu(*)" measuredWidth="119" measuredHeight="36">
+      <font size="20px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="121" y="300" text="Xác nhận mật khẩu(*)" measuredWidth="211" measuredHeight="36">
+      <font size="20px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:TextField" id="122" x="250" width="318" measuredWidth="318" measuredHeight="36">
+      <font size="20px"/>
+    </widgets>
+    <widgets xsi:type="model:TextField" id="123" x="250" y="60" width="318" measuredWidth="318" measuredHeight="36">
+      <font size="20px"/>
+    </widgets>
+    <widgets xsi:type="model:TextField" id="124" x="250" y="300" width="318" measuredWidth="318" measuredHeight="36">
+      <font size="20px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="125" y="60" text="Email(*)" measuredWidth="81" measuredHeight="36">
+      <font size="20px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="126" y="120" text="Giới tính" measuredWidth="89" measuredHeight="36">
+      <font size="20px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:TextField" id="127" x="250" y="240" width="318" measuredWidth="318" measuredHeight="36">
+      <font size="20px"/>
+    </widgets>
+    <widgets xsi:type="model:RadioButton" id="128" x="250" y="126" text="Nam" measuredWidth="62" measuredHeight="36" selected="true">
+      <font size="20px"/>
+    </widgets>
+    <widgets xsi:type="model:RadioButton" id="129" x="396" y="126" text="Nữ" measuredWidth="47" measuredHeight="36">
+      <font size="20px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="130" y="180" text="Ngày sinh" measuredWidth="101" measuredHeight="36">
+      <font size="20px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:DateField" id="131" x="250" y="186" width="318" text=" 01/01/1999  " measuredWidth="318" measuredHeight="23"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="132" x="363" y="1362" text="Đăng Ký" measuredWidth="122" measuredHeight="38" icon="edit (medium)">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="133" x="392" y="1016" width="316" text="Chưa nhập họ tên" measuredWidth="316" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="134" x="392" y="1072" width="316" text="Chưa nhập Email" measuredWidth="316" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="135" x="392" y="1256" width="316" text="Chưa nhập mật khẩu" measuredWidth="316" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="136" x="392" y="1313" width="316" text="Mật khẩu xác nhận chưa đúng" measuredWidth="316" measuredHeight="23">
+    <font/>
+  </widgets>
+  <hRuler>
+    <guides position="-11"/>
+    <guides position="782"/>
+  </hRuler>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
