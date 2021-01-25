@@ -60,7 +60,7 @@
     <widgets xsi:type="model:Callout" id="58" width="54" height="54" measuredWidth="54" measuredHeight="54" background="#fff">
       <font size="39px" bold="true"/>
     </widgets>
-    <widgets xsi:type="model:Icon" id="59" x="11" y="11" measuredWidth="32" measuredHeight="32" icon="email (large)"/>
+    <widgets xsi:type="model:Icon" id="59" x="11" y="11" measuredWidth="32" measuredHeight="32" icon="comments (large)"/>
   </widgets>
   <widgets xsi:type="model:WidgetGroup" id="65" x="574" y="256" measuredWidth="281" measuredHeight="336">
     <widgets xsi:type="model:Panel" id="34" width="281" height="336" measuredWidth="281" measuredHeight="336"/>

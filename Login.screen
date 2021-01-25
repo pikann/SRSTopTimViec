@@ -8,7 +8,11 @@
     <font/>
   </widgets>
   <widgets xsi:type="model:Icon" id="9" x="386" y="112" width="187" height="185" measuredWidth="187" measuredHeight="185" icon="image (large)"/>
+<<<<<<< HEAD
   <widgets xsi:type="model:TextField" id="10" x="359" y="314" width="241" text="Username" measuredWidth="241" measuredHeight="25">
+=======
+  <widgets xsi:type="model:TextField" id="10" x="359" y="314" width="241" text="E-mail" measuredWidth="241" measuredHeight="25">
+>>>>>>> 6395d631fc329172cb9b3b0e6c00f76f3807d3b0
     <font/>
   </widgets>
   <widgets xsi:type="model:TextField" id="11" x="359" y="362" width="241" text="Password" measuredWidth="241" measuredHeight="25">
