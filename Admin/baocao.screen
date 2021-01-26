@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="10" y="10" width="800" height="556" text="Browser&#xA;http://timvieclam.vn/admin/baiviet&#xA;" measuredWidth="800" measuredHeight="556">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="2" x="10" y="64" width="800" height="71" measuredWidth="800" measuredHeight="71"/>
+  <widgets xsi:type="model:SearchField" id="3" x="204" y="165" width="313" text="sdfcdc" measuredWidth="313" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="4" x="548" y="164" text="Tìm kiếm" measuredWidth="69" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="5" x="204" y="230" width="576" height="233" text="ID,Tên bài viết,Nhà tuyển dụng,Nội dung báo cáo,SL báo cáo,&#xA;1,[HOT JOB 20 PHP Developer],NTQ SOLUTION,2/12/2020,34,       &#xA;2,[Kỹ Thuật Xây Dựng],CTCP LICOGI13,3/1/2019,15&#xA;3,[Nhân Viên Kinh Doanh],CÔNG TY TNHH MTV...,4/6/2019,9&#xA;4,[Supervisor Kênh GT ...],CTCP XNK THƯƠNG...,24/12/2020,13&#xA;5,[Chuyên Viên Tư Vấn],DỰ ÁN CELADON CITY,14/8/2020,32&#xA;6,[Chuyên Viên Kiểm Toán...],CTCP QUẢN LÝ...,30/8/2020,21&#xA;7,[Nhân Viên Hỗ Trợ Kỹ ...],SILKROAD VINA JSC,29/7/2020,19&#xA;8,[Giám Đốc Chi Nhánh ...],NGÂN HÀNG TMCP...,12/8/2020,4&#xA;9,[Biên Phiên Dịch Kỹ Thuật],IMLINK VIETNAM,30/6/2020,20&#xA;10,[Vinhomes Chuyên Viên...],CTCP VINHOMES,18/7/2020,37&#xA;&#xA;" measuredWidth="576" measuredHeight="233" alternative="#eee">
+    <font/>
+    <items x="30" y="24" width="143" height="15" text="HOT JOB 20 PHP Developer"/>
+    <items x="30" y="45" width="100" height="15" text="Kỹ Thuật Xây Dựng"/>
+    <items x="30" y="66" width="120" height="15" text="Nhân Viên Kinh Doanh"/>
+    <items x="30" y="87" width="114" height="15" text="Supervisor Kênh GT ..."/>
+    <items x="30" y="108" width="106" height="15" text="Chuyên Viên Tư Vấn"/>
+    <items x="30" y="129" width="134" height="15" text="Chuyên Viên Kiểm Toán..."/>
+    <items x="30" y="150" width="121" height="15" text="Nhân Viên Hỗ Trợ Kỹ ..."/>
+    <items x="30" y="171" width="124" height="15" text="Giám Đốc Chi Nhánh ..."/>
+    <items x="30" y="192" width="132" height="15" text="Biên Phiên Dịch Kỹ Thuật"/>
+    <items x="30" y="213" width="132" height="15" text="Vinhomes Chuyên Viên..."/>
+  </widgets>
+  <widgets xsi:type="model:LinkBar" id="6" x="356" y="501" text="&lt;&lt;,1,2,3,4,...,10,>>" measuredWidth="228" measuredHeight="23">
+    <font/>
+    <items x="0" y="0" width="19" height="23" text="&lt;&lt;"/>
+    <items x="37" y="0" width="9" height="23" text="1"/>
+    <items x="64" y="0" width="9" height="23" text="2"/>
+    <items x="91" y="0" width="9" height="23" text="3"/>
+    <items x="118" y="0" width="9" height="23" text="4"/>
+    <items x="145" y="0" width="12" height="23" text="..."/>
+    <items x="175" y="0" width="15" height="23" text="10"/>
+    <items x="208" y="0" width="19" height="23" text=">>"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="28" x="58" y="84" measuredWidth="32" measuredHeight="32" icon="image (large)"/>
+  <widgets xsi:type="model:Icon" id="29" x="728" y="82" measuredWidth="32" measuredHeight="32" icon="user (large)"/>
+  <widgets xsi:type="model:VButtonBar" id="30" x="30" y="263" width="167" height="163" text="Quản lý Nhà tuyển dụng&#xD;&#xA;Quản lý Người tìm việc&#xD;&#xA;Phê duyệt bài đăng&#xD;&#xA;Quản lý báo lỗi" measuredWidth="167" measuredHeight="163" selection="2">
+    <font/>
+    <items x="0" y="0" width="167" height="40" text="Quản lý Nhà tuyển dụng"/>
+    <items x="0" y="40" width="167" height="39" text="Quản lý Người tìm việc"/>
+    <items x="0" y="79" width="167" height="39" text="Phê duyệt bài đăng"/>
+    <items x="0" y="118" width="167" height="45" text="Quản lý báo lỗi"/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="31" x="752" y="248" measuredWidth="21" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="32" x="751" y="289" measuredWidth="21" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="33" x="751" y="311" measuredWidth="21" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="34" x="751" y="333" measuredWidth="21" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="35" x="751" y="354" measuredWidth="21" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="36" x="751" y="376" measuredWidth="21" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="37" x="752" y="399" measuredWidth="21" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="38" x="751" y="420" measuredWidth="21" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="39" x="751" y="442" measuredWidth="21" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="40" x="743" y="464" width="37" text="Xoá" measuredWidth="37" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="41" x="751" y="267" measuredWidth="21" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Browser" id="42" x="10" y="576" width="800" height="556" text="Browser&#xA;http://timvieclam.vn/admin/baiviet&#xA;" measuredWidth="800" measuredHeight="556">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="43" x="10" y="630" width="800" height="71" measuredWidth="800" measuredHeight="71"/>
+  <widgets xsi:type="model:SearchField" id="44" x="204" y="731" width="313" text="sdfcdc" measuredWidth="313" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="45" x="548" y="730" text="Tìm kiếm" measuredWidth="69" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="46" x="204" y="796" width="561" height="233" text="ID,Tên bài viết,Nhà tuyển dụng,Tạo ngày,SL ứng viên,Phê duyệt,Xoá&#xA;1,[HOT JOB 20 PHP Developer],NTQ SOLUTION,21/08/2020,34,,&#xA;2,[Kỹ Thuật Xây Dựng],CTCP LICOGI13,12/08/2020,15,&#xA;3,[Nhân Viên Kinh Doanh],CÔNG TY TNHH MTV...,01/09/2020,9,&#xA;4,[Supervisor Kênh GT ...],CTCP XNK THƯƠNG...,5//2020,13&#xA;5,[Chuyên Viên Tư Vấn],DỰ ÁN CELADON CITY,14/8/2020,32&#xA;6,[Chuyên Viên Kiểm Toán...],CTCP QUẢN LÝ...,30/8/2020,21&#xA;7,[Nhân Viên Hỗ Trợ Kỹ ...],SILKROAD VINA JSC,29/7/2020,19&#xA;8,[Giám Đốc Chi Nhánh ...],NGÂN HÀNG TMCP...,12/8/2020,4&#xA;9,[Biên Phiên Dịch Kỹ Thuật],IMLINK VIETNAM,30/6/2020,20&#xA;10,[Vinhomes Chuyên Viên...],CTCP VINHOMES,18/7/2020,37&#xA;&#xA;" measuredWidth="561" measuredHeight="233" alternative="#eee">
+    <font/>
+    <items x="28" y="24" width="143" height="15" text="HOT JOB 20 PHP Developer"/>
+    <items x="28" y="45" width="100" height="15" text="Kỹ Thuật Xây Dựng"/>
+    <items x="28" y="66" width="120" height="15" text="Nhân Viên Kinh Doanh"/>
+    <items x="28" y="87" width="114" height="15" text="Supervisor Kênh GT ..."/>
+    <items x="28" y="108" width="106" height="15" text="Chuyên Viên Tư Vấn"/>
+    <items x="28" y="129" width="134" height="15" text="Chuyên Viên Kiểm Toán..."/>
+    <items x="28" y="150" width="121" height="15" text="Nhân Viên Hỗ Trợ Kỹ ..."/>
+    <items x="28" y="171" width="124" height="15" text="Giám Đốc Chi Nhánh ..."/>
+    <items x="28" y="192" width="132" height="15" text="Biên Phiên Dịch Kỹ Thuật"/>
+    <items x="28" y="213" width="132" height="15" text="Vinhomes Chuyên Viên..."/>
+  </widgets>
+  <widgets xsi:type="model:LinkBar" id="47" x="356" y="1067" text="&lt;&lt;,1,2,3,4,...,10,>>" measuredWidth="228" measuredHeight="23">
+    <font/>
+    <items x="0" y="0" width="19" height="23" text="&lt;&lt;"/>
+    <items x="37" y="0" width="9" height="23" text="1"/>
+    <items x="64" y="0" width="9" height="23" text="2"/>
+    <items x="91" y="0" width="9" height="23" text="3"/>
+    <items x="118" y="0" width="9" height="23" text="4"/>
+    <items x="145" y="0" width="12" height="23" text="..."/>
+    <items x="175" y="0" width="15" height="23" text="10"/>
+    <items x="208" y="0" width="19" height="23" text=">>"/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="48" x="737" y="818" measuredWidth="21" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="49" x="736" y="859" measuredWidth="21" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="50" x="736" y="881" measuredWidth="21" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="51" x="736" y="903" measuredWidth="21" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="52" x="736" y="924" measuredWidth="21" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="53" x="736" y="946" measuredWidth="21" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="54" x="737" y="969" measuredWidth="21" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="55" x="736" y="990" measuredWidth="21" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="56" x="736" y="1012" measuredWidth="21" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Switch" id="57" x="665" y="818" width="64" height="20" text="Yes,No" measuredWidth="64" measuredHeight="20" selected="true" background="#3d85c6">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Switch" id="58" x="664" y="839" height="20" text="Yes,No" measuredWidth="66" measuredHeight="20" selected="true" background="#3d85c6">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Switch" id="59" x="664" y="861" height="20" text="Yes,No" measuredWidth="66" measuredHeight="20" background="#3d85c6">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Switch" id="60" x="664" y="883" height="20" text="Yes,No" measuredWidth="66" measuredHeight="20" selected="true" background="#3d85c6">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Switch" id="61" x="664" y="905" height="20" text="Yes,No" measuredWidth="66" measuredHeight="20" selected="true" background="#3d85c6">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Switch" id="62" x="664" y="926" height="20" text="Yes,No" measuredWidth="66" measuredHeight="20" background="#3d85c6">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Switch" id="63" x="664" y="948" height="20" text="Yes,No" measuredWidth="66" measuredHeight="20" selected="true" background="#3d85c6">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Switch" id="64" x="664" y="972" height="20" text="Yes,No" measuredWidth="66" measuredHeight="20" selected="true" background="#3d85c6">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Switch" id="65" x="664" y="991" height="20" text="Yes,No" measuredWidth="66" measuredHeight="20" selected="true" background="#3d85c6">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Switch" id="66" x="664" y="1014" height="20" text="Yes,No" measuredWidth="66" measuredHeight="20" background="#3d85c6">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="67" x="728" y="1034" width="37" text="Xoá" measuredWidth="37" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="68" x="736" y="837" measuredWidth="21" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="69" x="58" y="650" measuredWidth="32" measuredHeight="32" icon="image (large)"/>
+  <widgets xsi:type="model:Icon" id="70" x="728" y="648" measuredWidth="32" measuredHeight="32" icon="user (large)"/>
+  <widgets xsi:type="model:VButtonBar" id="71" x="30" y="829" width="167" height="163" text="Quản lý Nhà tuyển dụng&#xD;&#xA;Quản lý Người tìm việc&#xD;&#xA;Phê duyệt bài đăng&#xD;&#xA;Quản lý báo lỗi" measuredWidth="167" measuredHeight="163" selection="2">
+    <font/>
+    <items x="0" y="0" width="167" height="40" text="Quản lý Nhà tuyển dụng"/>
+    <items x="0" y="40" width="167" height="39" text="Quản lý Người tìm việc"/>
+    <items x="0" y="79" width="167" height="39" text="Phê duyệt bài đăng"/>
+    <items x="0" y="118" width="167" height="45" text="Quản lý báo lỗi"/>
+  </widgets>
+  <widgets xsi:type="model:Browser" id="72" x="36" y="1267" width="800" height="563" text="Browser&#xA;http://timvieclam.vn/admin/baiviet&#xA;" measuredWidth="800" measuredHeight="563">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="73" x="36" y="1319" width="800" height="55" measuredWidth="800" measuredHeight="55"/>
+  <widgets xsi:type="model:SearchField" id="74" x="230" y="1406" width="313" text="sdfcdc" measuredWidth="313" measuredHeight="24">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="75" x="574" y="1405" text="Tìm kiếm" measuredWidth="69" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="76" x="230" y="1471" width="561" height="233" text="ID,Tên bài viết,Nhà tuyển dụng,Tạo ngày,SL ứng viên,Phê duyệt,Xoá&#xA;1,[HOT JOB 20 PHP Developer],NTQ SOLUTION,21/08/2020,34,,&#xA;2,[Kỹ Thuật Xây Dựng],CTCP LICOGI13,12/08/2020,15,&#xA;3,[Nhân Viên Kinh Doanh],CÔNG TY TNHH MTV...,01/09/2020,9,&#xA;4,[Supervisor Kênh GT ...],CTCP XNK THƯƠNG...,5//2020,13&#xA;5,[Chuyên Viên Tư Vấn],DỰ ÁN CELADON CITY,14/8/2020,32&#xA;6,[Chuyên Viên Kiểm Toán...],CTCP QUẢN LÝ...,30/8/2020,21&#xA;7,[Nhân Viên Hỗ Trợ Kỹ ...],SILKROAD VINA JSC,29/7/2020,19&#xA;8,[Giám Đốc Chi Nhánh ...],NGÂN HÀNG TMCP...,12/8/2020,4&#xA;9,[Biên Phiên Dịch Kỹ Thuật],IMLINK VIETNAM,30/6/2020,20&#xA;10,[Vinhomes Chuyên Viên...],CTCP VINHOMES,18/7/2020,37&#xA;&#xA;" measuredWidth="561" measuredHeight="233" alternative="#eee">
+    <font/>
+    <items x="28" y="24" width="143" height="15" text="HOT JOB 20 PHP Developer"/>
+    <items x="28" y="45" width="100" height="15" text="Kỹ Thuật Xây Dựng"/>
+    <items x="28" y="66" width="120" height="15" text="Nhân Viên Kinh Doanh"/>
+    <items x="28" y="87" width="114" height="15" text="Supervisor Kênh GT ..."/>
+    <items x="28" y="108" width="106" height="15" text="Chuyên Viên Tư Vấn"/>
+    <items x="28" y="129" width="134" height="15" text="Chuyên Viên Kiểm Toán..."/>
+    <items x="28" y="150" width="121" height="15" text="Nhân Viên Hỗ Trợ Kỹ ..."/>
+    <items x="28" y="171" width="124" height="15" text="Giám Đốc Chi Nhánh ..."/>
+    <items x="28" y="192" width="132" height="15" text="Biên Phiên Dịch Kỹ Thuật"/>
+    <items x="28" y="213" width="132" height="15" text="Vinhomes Chuyên Viên..."/>
+  </widgets>
+  <widgets xsi:type="model:LinkBar" id="77" x="382" y="1758" text="&lt;&lt;,1,2,3,4,...,10,>>" measuredWidth="228" measuredHeight="23">
+    <font/>
+    <items x="0" y="0" width="19" height="23" text="&lt;&lt;"/>
+    <items x="37" y="0" width="9" height="23" text="1"/>
+    <items x="64" y="0" width="9" height="23" text="2"/>
+    <items x="91" y="0" width="9" height="23" text="3"/>
+    <items x="118" y="0" width="9" height="23" text="4"/>
+    <items x="145" y="0" width="12" height="23" text="..."/>
+    <items x="175" y="0" width="15" height="23" text="10"/>
+    <items x="208" y="0" width="19" height="23" text=">>"/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="78" x="763" y="1493" measuredWidth="21" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="79" x="762" y="1534" measuredWidth="21" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="80" x="762" y="1556" measuredWidth="21" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="81" x="762" y="1578" measuredWidth="21" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="82" x="762" y="1599" measuredWidth="21" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="83" x="762" y="1621" measuredWidth="21" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="84" x="763" y="1644" measuredWidth="21" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="85" x="762" y="1665" measuredWidth="21" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="86" x="762" y="1687" measuredWidth="21" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Switch" id="87" x="691" y="1493" width="64" height="20" text="Yes,No" measuredWidth="64" measuredHeight="20" selected="true" background="#3d85c6">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Switch" id="88" x="690" y="1514" height="20" text="Yes,No" measuredWidth="66" measuredHeight="20" selected="true" background="#3d85c6">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Switch" id="89" x="690" y="1536" height="20" text="Yes,No" measuredWidth="66" measuredHeight="20" background="#3d85c6">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Switch" id="90" x="690" y="1558" height="20" text="Yes,No" measuredWidth="66" measuredHeight="20" selected="true" background="#3d85c6">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Switch" id="91" x="690" y="1580" height="20" text="Yes,No" measuredWidth="66" measuredHeight="20" selected="true" background="#3d85c6">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Switch" id="92" x="690" y="1601" height="20" text="Yes,No" measuredWidth="66" measuredHeight="20" background="#3d85c6">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Switch" id="93" x="690" y="1623" height="20" text="Yes,No" measuredWidth="66" measuredHeight="20" selected="true" background="#3d85c6">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Switch" id="94" x="690" y="1647" height="20" text="Yes,No" measuredWidth="66" measuredHeight="20" selected="true" background="#3d85c6">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Switch" id="95" x="690" y="1666" height="20" text="Yes,No" measuredWidth="66" measuredHeight="20" selected="true" background="#3d85c6">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Switch" id="96" x="690" y="1689" height="20" text="Yes,No" measuredWidth="66" measuredHeight="20" background="#3d85c6">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="97" x="754" y="1709" width="37" text="Xoá" measuredWidth="37" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Checkbox" id="98" x="762" y="1512" measuredWidth="21" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="99" x="84" y="1325" measuredWidth="32" measuredHeight="32" icon="image (large)"/>
+  <widgets xsi:type="model:Icon" id="100" x="754" y="1323" measuredWidth="32" measuredHeight="32" icon="user (large)"/>
+  <widgets xsi:type="model:VButtonBar" id="101" x="56" y="1504" width="167" height="163" text="Quản lý Nhà tuyển dụng&#xD;&#xA;Quản lý Người tìm việc&#xD;&#xA;Phê duyệt bài đăng&#xD;&#xA;Quản lý báo cáo" measuredWidth="167" measuredHeight="163" selection="2">
+    <font/>
+    <items x="0" y="0" width="167" height="40" text="Quản lý Nhà tuyển dụng"/>
+    <items x="0" y="40" width="167" height="39" text="Quản lý Người tìm việc"/>
+    <items x="0" y="79" width="167" height="39" text="Phê duyệt bài đăng"/>
+    <items x="0" y="118" width="167" height="45" text="Quản lý báo cáo"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="102" x="36" y="1373" width="798" height="457" measuredWidth="798" measuredHeight="457" background="#999" alpha="93"/>
+  <widgets xsi:type="model:Panel" id="103" x="219" y="1442" width="553" height="382" measuredWidth="553" measuredHeight="382"/>
+  <widgets xsi:type="model:Label" id="104" x="243" y="1463" text="Tên bài đăng" measuredWidth="76" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="105" x="366" y="1462" width="318" text="Kỹ Sư Thiết Kế (10 Vị Trí - Trung Tâm Thiết Kế Đồ Gá - Hải Phòng)" measuredWidth="318" measuredHeight="25" borderColor="#fff">
+    <font size="13px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="106" x="243" y="1495" width="97" text="Nhà tuyển dụng" measuredWidth="97" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="107" x="366" y="1495" width="318" text="CÔNG TY TRÁCH NHIỆM HỮU HẠN SẢN XUẤT VÀ KINH DOANH VINFAST - THÀNH VIÊN CỦA VINGROUP" measuredWidth="318" measuredHeight="25" borderColor="#fff">
+    <font size="13px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="112" x="243" y="1534" text="Nội dung" measuredWidth="56" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="114" x="366" y="1540" width="342" height="124" text="YÊU CẦU CÔNG VIỆC&#xD;&#xA;• Thành thạo đọc và phân tích bản vẽ 2D, 3D và các tiêu chuẩn kỹ thuật, ký hiệu bản vẽ&#xD;&#xA;• Sử dụng thành thạo phần mềm thiết kế/gia công AutoCAD, NX, CATIA, INVENTOR, CIMATRON ...&#xD;&#xA;• Tốt nghiệp Đại học chuyên ngành Kỹ thuật (cơ khí/điện/ô tô...) hoặc các chuyên ngành liên quan&#xD;&#xA;• 2 năm kinh nghiệm trong môi trường kỹ thuật (ở vị trí tương tự)&#xD;&#xA;• Sử dụng thành thạo Microsoft Office&#xD;&#xA;• Có khả năng giao tiếp tiếng Anh&#xD;&#xA;• Chăm chỉ, chủ động trong công việc, chịu được áp lực cao" measuredWidth="342" measuredHeight="124">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:VScrollbar" id="115" x="707" y="1540" height="124" measuredWidth="17" measuredHeight="124"/>
+  <widgets xsi:type="model:Icon" id="118" x="740" y="1442" measuredWidth="32" measuredHeight="32" icon="close (large)"/>
+  <widgets xsi:type="model:Button" id="119" x="684" y="1780" width="64" text="OK" measuredWidth="64" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="120" x="240" y="1687" text="Nội dung báo cáo:" measuredWidth="104" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="121" x="366" y="1696" width="277" text="STT,Nội dung báo cáo,Số lượng&#xD;&#xA;1,Nội dung 1,4&#xD;&#xA;2,Nội dung 2,7&#xD;&#xA;3, Nội dung 3,0&#xD;&#xA;4,Nội dung 4,0" measuredWidth="277" measuredHeight="109" alternative="#eee">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
