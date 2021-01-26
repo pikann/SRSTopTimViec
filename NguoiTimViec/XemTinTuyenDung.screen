@@ -105,7 +105,7 @@
     <widgets xsi:type="model:Callout" id="67" width="54" height="54" measuredWidth="54" measuredHeight="54" background="#fff">
       <font size="39px" bold="true"/>
     </widgets>
-    <widgets xsi:type="model:Icon" id="68" x="11" y="11" measuredWidth="32" measuredHeight="32" icon="email (large)"/>
+    <widgets xsi:type="model:Icon" id="68" x="11" y="11" measuredWidth="32" measuredHeight="32" icon="comments (large)"/>
   </widgets>
   <widgets xsi:type="model:WidgetGroup" id="79" x="578" y="203" measuredWidth="103" measuredHeight="34">
     <widgets xsi:type="model:WidgetGroup" id="75" measuredWidth="34" measuredHeight="34">
