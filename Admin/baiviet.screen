@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
-  <widgets xsi:type="model:Browser" id="1" x="-10" y="5" width="800" height="579" text="Browser&#xA;http://timvieclam.vn/admin/baiviet&#xA;" measuredWidth="800" measuredHeight="579">
+  <widgets xsi:type="model:Browser" id="1" x="-10" y="5" width="800" height="556" text="Browser&#xA;http://timvieclam.vn/admin/baiviet&#xA;" measuredWidth="800" measuredHeight="556">
     <font/>
   </widgets>
   <widgets xsi:type="model:Panel" id="6" x="-10" y="59" width="800" height="71" measuredWidth="800" measuredHeight="71"/>
@@ -23,7 +23,7 @@
     <items x="28" y="192" width="132" height="15" text="Biên Phiên Dịch Kỹ Thuật"/>
     <items x="28" y="213" width="132" height="15" text="Vinhomes Chuyên Viên..."/>
   </widgets>
-  <widgets xsi:type="model:LinkBar" id="19" x="336" y="512" text="&lt;&lt;,1,2,3,4,...,10,>>" measuredWidth="228" measuredHeight="23">
+  <widgets xsi:type="model:LinkBar" id="19" x="336" y="496" text="&lt;&lt;,1,2,3,4,...,10,>>" measuredWidth="228" measuredHeight="23">
     <font/>
     <items x="0" y="0" width="19" height="23" text="&lt;&lt;"/>
     <items x="37" y="0" width="9" height="23" text="1"/>
@@ -99,17 +99,17 @@
   </widgets>
   <widgets xsi:type="model:Icon" id="57" x="38" y="79" measuredWidth="32" measuredHeight="32" icon="image (large)"/>
   <widgets xsi:type="model:Icon" id="58" x="708" y="77" measuredWidth="32" measuredHeight="32" icon="user (large)"/>
-  <widgets xsi:type="model:VButtonBar" id="59" x="10" y="258" width="167" height="163" text="Quản lý Nhà tuyển dụng&#xD;&#xA;Quản lý Người tìm việc&#xD;&#xA;Phê duyệt bài đăng&#xD;&#xA;Quản lý báo lỗi" measuredWidth="167" measuredHeight="163" selection="3">
+  <widgets xsi:type="model:VButtonBar" id="59" x="10" y="258" width="167" height="163" text="Quản lý Nhà tuyển dụng&#xD;&#xA;Quản lý Người tìm việc&#xD;&#xA;Phê duyệt bài đăng&#xD;&#xA;Quản lý báo lỗi" measuredWidth="167" measuredHeight="163" selection="2">
     <font/>
     <items x="0" y="0" width="167" height="40" text="Quản lý Nhà tuyển dụng"/>
     <items x="0" y="40" width="167" height="39" text="Quản lý Người tìm việc"/>
     <items x="0" y="79" width="167" height="39" text="Phê duyệt bài đăng"/>
     <items x="0" y="118" width="167" height="45" text="Quản lý báo lỗi"/>
   </widgets>
-  <widgets xsi:type="model:Browser" id="60" x="16" y="680" width="800" height="579" text="Browser&#xA;http://timvieclam.vn/admin/baiviet&#xA;" measuredWidth="800" measuredHeight="579">
+  <widgets xsi:type="model:Browser" id="60" x="16" y="696" width="800" height="563" text="Browser&#xA;http://timvieclam.vn/admin/baiviet&#xA;" measuredWidth="800" measuredHeight="563">
     <font/>
   </widgets>
-  <widgets xsi:type="model:Panel" id="61" x="16" y="732" width="800" height="71" measuredWidth="800" measuredHeight="71"/>
+  <widgets xsi:type="model:Panel" id="61" x="16" y="748" width="800" height="55" measuredWidth="800" measuredHeight="55"/>
   <widgets xsi:type="model:SearchField" id="62" x="210" y="835" width="313" text="sdfcdc" measuredWidth="313" measuredHeight="24">
     <font/>
   </widgets>
@@ -232,7 +232,7 @@
   <widgets xsi:type="model:Label" id="128" x="223" y="989" text="Phê duyệt" measuredWidth="62" measuredHeight="23">
     <font bold="true"/>
   </widgets>
-  <widgets xsi:type="model:RadioButton" id="130" x="346" y="989" text="Đã phê duyệt" measuredWidth="90" measuredHeight="23" selected="true">
+  <widgets xsi:type="model:RadioButton" id="130" x="346" y="989" text="Phê duyệt" measuredWidth="73" measuredHeight="23" selected="true">
     <font/>
   </widgets>
   <widgets xsi:type="model:RadioButton" id="131" x="453" y="989" text="Chưa phê duyệt" measuredWidth="104" measuredHeight="23">
@@ -251,10 +251,13 @@
   <widgets xsi:type="model:Label" id="136" x="223" y="1028" text="Hashtag:" measuredWidth="54" measuredHeight="23">
     <font bold="true"/>
   </widgets>
-  <widgets xsi:type="model:TextField" id="137" x="346" y="1027" width="318" text="Kỹ Sư Thiết Kế (10 Vị Trí - Trung Tâm Thiết Kế Đồ Gá - Hải Phòng)" measuredWidth="318" measuredHeight="25" borderColor="#fff">
+  <widgets xsi:type="model:TextField" id="137" x="346" y="1027" width="318" text="React,Node JS" measuredWidth="318" measuredHeight="25" borderColor="#fff">
     <font size="13px"/>
   </widgets>
   <widgets xsi:type="model:Icon" id="138" x="720" y="871" measuredWidth="32" measuredHeight="32" icon="close (large)"/>
+  <widgets xsi:type="model:Button" id="139" x="664" y="1209" width="64" text="OK" measuredWidth="64" measuredHeight="25">
+    <font/>
+  </widgets>
   <hRuler/>
   <vRuler>
     <guides position="420"/>

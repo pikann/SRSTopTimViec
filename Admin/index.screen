@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
-  <widgets xsi:type="model:Browser" id="1" x="-10" y="56" width="800" height="600" text="Browser&#xA;http://timvieclam.vn/admin/" measuredWidth="800" measuredHeight="600">
+  <widgets xsi:type="model:Browser" id="1" x="-10" y="56" width="800" height="561" text="Browser&#xA;http://timvieclam.vn/admin/" measuredWidth="800" measuredHeight="561">
     <font/>
   </widgets>
   <widgets xsi:type="model:Panel" id="6" y="106" width="780" height="63" measuredWidth="780" measuredHeight="63"/>
-  <widgets xsi:type="model:VButtonBar" id="11" y="310" width="167" height="163" text="Quản lý Nhà tuyển dụng&#xD;&#xA;Quản lý Người tìm việc&#xD;&#xA;Phê duyệt bài đăng&#xD;&#xA;Quản lý báo lỗi" measuredWidth="167" measuredHeight="163" selection="3">
+  <widgets xsi:type="model:VButtonBar" id="11" y="310" width="167" height="163" text="Quản lý Nhà tuyển dụng&#xD;&#xA;Quản lý Người tìm việc&#xD;&#xA;Phê duyệt bài đăng&#xD;&#xA;Quản lý báo cáo" measuredWidth="167" measuredHeight="163">
     <font/>
     <items x="0" y="0" width="167" height="40" text="Quản lý Nhà tuyển dụng"/>
     <items x="0" y="40" width="167" height="39" text="Quản lý Người tìm việc"/>
     <items x="0" y="79" width="167" height="39" text="Phê duyệt bài đăng"/>
-    <items x="0" y="118" width="167" height="45" text="Quản lý báo lỗi"/>
+    <items x="0" y="118" width="167" height="45" text="Quản lý báo cáo"/>
   </widgets>
   <widgets xsi:type="model:Panel" id="20" x="184" y="208" width="596" height="374" measuredWidth="596" measuredHeight="374"/>
   <widgets xsi:type="model:Icon" id="37" x="705" y="122" measuredWidth="32" measuredHeight="32" icon="user (large)"/>
@@ -26,9 +26,51 @@
   <widgets xsi:type="model:Label" id="47" x="269" y="540" width="128" text="Phê duyệt bài đăng" measuredWidth="128" measuredHeight="23">
     <font bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Icon" id="48" x="552" y="401" width="170" height="140" measuredWidth="170" measuredHeight="140" icon="image (large)"/>
-  <widgets xsi:type="model:Label" id="49" x="594" y="540" text="Quản lý báo lỗi" measuredWidth="86" measuredHeight="23">
+  <widgets xsi:type="model:Icon" id="48" x="552" y="401" width="170" height="140" measuredWidth="170" measuredHeight="140" icon="image (custom)"/>
+  <widgets xsi:type="model:Label" id="49" x="594" y="540" text="Quản lý báo cáo" measuredWidth="92" measuredHeight="23">
     <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:VButtonBar" id="50" x="623" y="158" text="Quản lý tài khoản&#xA;Đăng xuất" measuredWidth="114" measuredHeight="56">
+    <font/>
+    <items x="0" y="0" width="114" height="28" text="Quản lý tài khoản"/>
+    <items x="0" y="28" width="114" height="28" text="Đăng xuất"/>
+  </widgets>
+  <widgets xsi:type="model:Browser" id="51" y="672" width="800" height="553" text="Browser&#xA;http://timvieclam.vn/admin/" measuredWidth="800" measuredHeight="553">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="52" x="10" y="722" width="780" height="63" measuredWidth="780" measuredHeight="63"/>
+  <widgets xsi:type="model:VButtonBar" id="53" x="10" y="926" width="167" height="163" text="Quản lý Nhà tuyển dụng&#xD;&#xA;Quản lý Người tìm việc&#xD;&#xA;Phê duyệt bài đăng&#xD;&#xA;Quản lý báo cáo" measuredWidth="167" measuredHeight="163">
+    <font/>
+    <items x="0" y="0" width="167" height="40" text="Quản lý Nhà tuyển dụng"/>
+    <items x="0" y="40" width="167" height="39" text="Quản lý Người tìm việc"/>
+    <items x="0" y="79" width="167" height="39" text="Phê duyệt bài đăng"/>
+    <items x="0" y="118" width="167" height="45" text="Quản lý báo cáo"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="55" x="715" y="738" measuredWidth="32" measuredHeight="32" icon="user (large)"/>
+  <widgets xsi:type="model:Icon" id="56" x="42" y="738" measuredWidth="32" measuredHeight="32" icon="image (large)"/>
+  <widgets xsi:type="model:Group" id="66" x="208" y="848" width="553" height="337" text="Chỉnh sửa mật khẩu cá nhân" measuredWidth="553" measuredHeight="337">
+    <font size="30px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="67" x="229" y="960" width="86" text="Mật khẩu cũ(*)" measuredWidth="86" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="68" x="352" y="960" width="318" measuredWidth="318" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="69" x="229" y="1006" width="97" text="Mật khẩu mới(*)" measuredWidth="97" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="70" x="352" y="1006" width="318" measuredWidth="318" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="71" x="229" y="1048" text="Xác nhận mật khẩu(*)" measuredWidth="124" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="72" x="352" y="1048" width="318" measuredWidth="318" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="73" x="646" y="1128" text="Đổi mật khẩu" measuredWidth="91" measuredHeight="25">
+    <font/>
   </widgets>
   <hRuler/>
   <vRuler/>
