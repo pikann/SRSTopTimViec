@@ -142,6 +142,10 @@
   <widgets xsi:type="model:Label" id="120" x="445" y="872" text="Hộp thư" measuredWidth="96" measuredHeight="39">
     <font size="24px" bold="true"/>
   </widgets>
+  <widgets xsi:type="model:Callout" id="121" x="834" y="607" width="54" height="54" measuredWidth="54" measuredHeight="54" background="#fff">
+    <font size="32px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="122" x="845" y="618" measuredWidth="32" measuredHeight="32" icon="add (large)"/>
   <hRuler/>
   <vRuler/>
   <font size="12px"/>

@@ -89,7 +89,7 @@
       <font/>
     </widgets>
   </widgets>
-  <widgets xsi:type="model:TextArea" id="34" x="768" y="172" text="Trang cá nhân&#xD;&#xA;Quản lý tài khoản&#xD;&#xA;Hộp thư&#xD;&#xA;Thông tin ứng tuyển&#xD;&#xA;Đăng xuất" measuredWidth="117" measuredHeight="83">
+  <widgets xsi:type="model:TextArea" id="34" x="768" y="172" text="Trang cá nhân&#xD;&#xA;Quản lý tài khoản&#xD;&#xA;Hộp thư&#xD;&#xA;Đăng xuất" measuredWidth="102" measuredHeight="68">
     <font/>
   </widgets>
   <hRuler/>
