@@ -81,10 +81,7 @@
   <widgets xsi:type="model:Label" id="67" x="320" y="136" text="Trang chủ" measuredWidth="75" measuredHeight="28">
     <font size="15px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="68" x="400" y="136" text="Công việc" measuredWidth="71" measuredHeight="28">
-    <font size="15px"/>
-  </widgets>
-  <widgets xsi:type="model:Label" id="69" x="469" y="136" text="Công ty" measuredWidth="57" measuredHeight="28">
+  <widgets xsi:type="model:Label" id="68" x="400" y="136" text="Danh sách" measuredWidth="74" measuredHeight="28">
     <font size="15px"/>
   </widgets>
   <widgets xsi:type="model:Shape" id="70" x="854" y="133" width="34" height="34" measuredWidth="34" measuredHeight="34">
@@ -114,12 +111,6 @@
   <widgets xsi:type="model:Label" id="82" x="320" y="807" text="Trang chủ" measuredWidth="75" measuredHeight="28">
     <font size="15px" bold="true"/>
   </widgets>
-  <widgets xsi:type="model:Label" id="83" x="400" y="807" text="Công việc" measuredWidth="71" measuredHeight="28">
-    <font size="15px"/>
-  </widgets>
-  <widgets xsi:type="model:Label" id="84" x="469" y="807" text="Công ty" measuredWidth="57" measuredHeight="28">
-    <font size="15px"/>
-  </widgets>
   <widgets xsi:type="model:Shape" id="85" x="854" y="804" width="34" height="34" measuredWidth="34" measuredHeight="34">
     <font/>
   </widgets>
@@ -139,10 +130,6 @@
     </widgets>
     <widgets xsi:type="model:Icon" id="93" x="4" y="5" width="25" height="25" measuredWidth="25" measuredHeight="25" icon="bell (custom)"/>
   </widgets>
-  <widgets xsi:type="model:Callout" id="94" x="834" y="607" width="54" height="54" measuredWidth="54" measuredHeight="54" background="#fff">
-    <font size="32px" bold="true"/>
-  </widgets>
-  <widgets xsi:type="model:Icon" id="95" x="845" y="618" measuredWidth="32" measuredHeight="32" icon="add (large)"/>
   <widgets xsi:type="model:Label" id="96" x="318" y="264" text="Tìm kiếm:" measuredWidth="70" measuredHeight="28">
     <font size="15px"/>
   </widgets>
@@ -153,6 +140,15 @@
     <font size="15px"/>
   </widgets>
   <widgets xsi:type="model:Combo" id="99" x="653" y="264" width="189" text="Công việc" measuredWidth="189" measuredHeight="28">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="100" x="473" y="136" text="Quản lý tin" measuredWidth="77" measuredHeight="28">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="101" x="400" y="807" text="Danh sách" measuredWidth="74" measuredHeight="28">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="102" x="473" y="807" text="Quản lý tin" measuredWidth="77" measuredHeight="28">
     <font size="15px"/>
   </widgets>
   <hRuler/>

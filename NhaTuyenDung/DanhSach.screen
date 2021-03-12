@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="98" y="72" width="800" height="600" text="Đăng tin tuyển dụng&#xA;http://toptimviec.vn/dangtin" measuredWidth="800" measuredHeight="600">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="2" x="112" y="134" measuredWidth="32" measuredHeight="32" icon="image (large)"/>
+  <widgets xsi:type="model:Label" id="3" x="152" y="133" text="TopTimViec" measuredWidth="105" measuredHeight="33">
+    <font size="19px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:HLine" id="4" x="100" y="167" width="796" measuredWidth="796" measuredHeight="6"/>
+  <widgets xsi:type="model:Label" id="5" x="320" y="136" text="Trang chủ" measuredWidth="75" measuredHeight="28">
+    <font size="15px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="6" x="400" y="136" text="Danh sách" measuredWidth="74" measuredHeight="28">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:Shape" id="7" x="854" y="133" width="34" height="34" measuredWidth="34" measuredHeight="34">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="8" x="855" y="134" measuredWidth="32" measuredHeight="32" icon="user (large)"/>
+  <widgets xsi:type="model:WidgetGroup" id="9" x="768" y="133" measuredWidth="34" measuredHeight="34">
+    <widgets xsi:type="model:Shape" id="10" width="34" height="34" measuredWidth="34" measuredHeight="34">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="11" x="4" y="5" width="25" height="25" measuredWidth="25" measuredHeight="25" icon="comments (custom)"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="12" x="682" y="135" height="29" text="Đăng tin" measuredWidth="65" measuredHeight="29" background="#ccc">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="13" x="810" y="133" measuredWidth="34" measuredHeight="34">
+    <widgets xsi:type="model:Shape" id="14" width="34" height="34" measuredWidth="34" measuredHeight="34">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="15" x="4" y="5" width="25" height="25" measuredWidth="25" measuredHeight="25" icon="bell (custom)"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="36" x="473" y="136" text="Quản lý tin" measuredWidth="77" measuredHeight="28">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="37" x="164" y="256" width="669" height="416" measuredWidth="669" measuredHeight="416"/>
+  <widgets xsi:type="model:Label" id="38" x="430" y="192" text="Danh sách" measuredWidth="135" measuredHeight="46">
+    <font size="28px"/>
+  </widgets>
+  <widgets xsi:type="model:Table" id="40" x="197" y="326" width="602" text="Tên,Số lượng,Xóa&#xA;Danh sách 1,20&#xA;Danh sách 1,20&#xA;Danh sách 1,20&#xA;Danh sách 1,20&#xA;Danh sách 1,20&#xA;Danh sách 1,20&#xA;Danh sách 1,20&#xA;Danh sách 1,20" measuredWidth="602" measuredHeight="346" alternative="#eee">
+    <font size="20px"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="44" x="736" y="368" width="22" height="27" measuredWidth="22" measuredHeight="27" icon="trash (large)"/>
+  <widgets xsi:type="model:Icon" id="45" x="736" y="408" width="22" height="27" measuredWidth="22" measuredHeight="27" icon="trash (large)"/>
+  <widgets xsi:type="model:Icon" id="46" x="736" y="448" width="22" height="27" measuredWidth="22" measuredHeight="27" icon="trash (large)"/>
+  <widgets xsi:type="model:Icon" id="47" x="736" y="480" width="22" height="27" measuredWidth="22" measuredHeight="27" icon="trash (large)"/>
+  <widgets xsi:type="model:Icon" id="48" x="736" y="520" width="22" height="27" measuredWidth="22" measuredHeight="27" icon="trash (large)"/>
+  <widgets xsi:type="model:Icon" id="49" x="736" y="560" width="22" height="27" measuredWidth="22" measuredHeight="27" icon="trash (large)"/>
+  <widgets xsi:type="model:Icon" id="50" x="736" y="600" width="22" height="27" measuredWidth="22" measuredHeight="27" icon="trash (large)"/>
+  <widgets xsi:type="model:Icon" id="51" x="736" y="635" width="22" height="27" measuredWidth="22" measuredHeight="27" icon="trash (large)"/>
+  <widgets xsi:type="model:Button" id="52" x="672" y="280" text="Thêm danh sách" measuredWidth="127" measuredHeight="30">
+    <font size="15px"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
